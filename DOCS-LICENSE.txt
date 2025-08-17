@@ -1,0 +1,2 @@
+All non-license content in this repository (README, CONTRIBUTING, ADOPTER_GUIDE, SCHEMA, DICTIONARY, badge assets) is provided under Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0).
+Exception: `/transparency/SCHEMA.csv` and `/transparency/DICTIONARY.md` are dual-licensed under CC0 1.0 to encourage machine-readable reporting.
