@@ -33,3 +33,19 @@ This repo publishes the PBE-L license text and a small compliance kit that keeps
 6. Have an officer sign the annual attestation from `attestation/ATT_ORG.md` and keep it on file; post a PDF if you can.
 7. Add this badge to your README pointing to your Transparency Report:
 
+## Practical notes
+- Individuals never have to publish anything publicly. They only attest privately if asked.
+- Using cloud providers, brokers, or custodians is fine. The license blocks performance-fee middlemen, not neutral infrastructure.
+- If you operate a federation of small orgs under common control, consolidate for caps and transparency. This stops paper fragmentation without new forms.
+
+## FAQ
+- Q: Does the license allow bona fide payroll even if some staff would not qualify as individuals?
+A: Yes. Payroll and benefits for bona fide services are allowed. The equitable-benefits rule applies if the software funds or informs pay.
+- Q: Can we share research about our approach?
+A: Yes. Share methods and aggregate stats. Do not publish actionable artifacts or parameter sets that would enable prohibited users to reproduce the tool.
+- Q: What if local law blocks publishing a line item?
+A: Publish what you can, cite the blocking law for the rest, and be ready to verify privately on request.
+
+## Versioning
+- We tag the license and kit with semver. Legal changes bump the major version. Documentation or schema clarifications bump the minor or patch version.
+
