@@ -1,0 +1,5 @@
+- Cut a release only from `main`.
+- Update `CHANGELOG.md`.
+- Create a signed, annotated tag: v1.0.x
+- Attach `LICENSE.txt`, `NOTICE`, and `transparency/SCHEMA.csv` as release assets.
+- Do not rewrite or delete tags.
