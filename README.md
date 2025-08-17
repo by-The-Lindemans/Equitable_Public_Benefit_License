@@ -1,21 +1,14 @@
 # Public Benefit Equity License v1.0 - reference repo
 
-This repo publishes the PBE-L license text and a small compliance kit that keeps overhead low for good-faith nonprofits and co-ops while preventing capture by for-profit and ultra-wealthy actors.
+This repository publishes the canonical text of PBE-L and a small compliance kit for adopters. PBE-L is written to keep overhead low for good-faith nonprofits and co-ops while preventing capture by for-profit and ultra-wealthy actors.
 
 ## Files
 - LICENSE.txt - the full legal text
-- NOTICE - parameters you set for venue and where your transparency lives
+- NOTICE - parameters for transparency and cap clauses
 - attestation/ - one-page annual attestation templates
 - transparency/SCHEMA.csv and DICTIONARY.md - a minimal, machine-readable supplement
 
-## How to issue the license from this repo
-1. Fork or clone this repo as `pbe-license` under your org GitHub account.
-2. Update `NOTICE` with your Public Location URL and contact email; commit.
-3. Tag a release, for example `v1.0.0`, so downstream projects can link to a stable tag.
-4. Enable GitHub Pages on the repo with the `main` branch; this makes your LICENSE and NOTICE easy to link.
-5. Optionally add `BADGE.md` to show the “PBE-L compliant” link snippet that adopters can copy.
-
-## How projects adopt the license
+## How to adopt the license
 1. Copy `LICENSE.txt` into the project repo root unchanged.
 2. Add a project-local `NOTICE` with:
    - Licensor name
@@ -45,6 +38,10 @@ A: Yes. Payroll and benefits for bona fide services are allowed. The equitable-b
 A: Yes. Share methods and aggregate stats. Do not publish actionable artifacts or parameter sets that would enable prohibited users to reproduce the tool.
 - Q: What if local law blocks publishing a line item?
 A: Publish what you can, cite the blocking law for the rest, and be ready to verify privately on request.
+
+## Changes and corrections
+- We accept errata; we track them in `CHANGELOG.md`.
+- Policy proposals are not in scope for this repo. See `CONTRIBUTING.md` for the process.
 
 ## Versioning
 - We tag the license and kit with semver. Legal changes bump the major version. Documentation or schema clarifications bump the minor or patch version.
