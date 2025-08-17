@@ -1,0 +1,21 @@
+name: Erratum
+description: Report a typo, broken link, or non-substantive defect
+body:
+  - type: input
+    id: section
+    attributes:
+      label: Section and line
+  - type: textarea
+    id: current
+    attributes:
+      label: Current text
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Minimal replacement text
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope confirmation
+      options:
+        - label: This change is an erratum or clarification only.
