@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" role="img" aria-label="PBE-L mark">
+  <!-- Outer ring -->
+  <path fill-rule="evenodd" d="M16 2a14 14 0 1 0 0 28a14 14 0 1 0 0-28Zm0 4a10 10 0 1 1 0 20a10 10 0 1 1 0-20Z" clip-rule="evenodd"/>
+  <!-- Equality bars -->
+  <rect x="9" y="13" width="14" height="2.4" rx="1.2"/>
+  <rect x="9" y="17" width="14" height="2.4" rx="1.2"/>
+</svg>
