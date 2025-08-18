@@ -1,4 +1,4 @@
-Equitable Public Benefit License (EPBL) v0.2.0-rc1
+Equitable Public Benefit License (EPBL) v0.2.0-rc2
 
 Preamble
 This license is for software that advances broad public benefit. It permits use by qualifying individuals and benevolent organizations that operate within simple, verifiable limits; it blocks capture by for-profit and ultra-wealthy actors. Compliance is kept simple by filing a single annual Attestation by email.
@@ -39,7 +39,7 @@ This license is for software that advances broad public benefit. It permits use 
 
 1.17 Attestation Inbox means the submission email address for Attestations: attest@lndmn.com.
 
-1.18 Venue means Oregon, USA; Multnomah County courts.
+1.18 Venue means California, USA; state courts in San Francisco County and the United States District Court for the Northern District of California.
 
 1.19 Compliance Contact means an email address the Licensee may include in the Attestation to receive compliance questions.
 
@@ -141,4 +141,12 @@ This license is for software that advances broad public benefit. It permits use 
 
 14.5 Survival. Sections 5, 6.4, 6.5, 7, 8, 9, 10.2, 11, 12, and 14 survive termination.
 
-Governing Law and Venue: Oregon, USA; Multnomah County courts.
+14.6 Attorneys’ fees. In any action to enforce this license, the prevailing party is entitled to reasonable attorneys’ fees and costs in addition to any fee awards available under applicable law.
+
+14.7 Equitable relief and non-exclusive forum. The parties acknowledge that breaches of Sections 3, 4, 5, or 6 may cause irreparable harm. Licensor may seek temporary, preliminary, or permanent injunctive relief and specific performance in any court of competent jurisdiction, without posting bond, while the merits otherwise proceed in the Venue defined in Section 1.18.
+
+14.8 Forum selection and consent. Each party consents to personal jurisdiction in the courts defined in Section 1.18; waives objections based on inconvenience; and agrees that venue there is proper.
+
+14.9 Service. Each party consents to service of process by email to the addresses provided in the Attestation (for Organizations, the registered agent address also applies), with a courier or certified-mail copy sent the same day.
+
+Governing Law and Venue: California law governs this license without regard to conflict-of-laws rules; exclusive venue lies in the courts defined in Section 1.18, except as provided in Section 14.7.
