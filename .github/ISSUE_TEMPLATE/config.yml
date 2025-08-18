@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: File an Attestation by email
+    url: mailto:attest@lndmn.com
+    about: Licensees must email annual attestations here per the license.
