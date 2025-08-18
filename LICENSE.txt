@@ -1,4 +1,4 @@
-Public Benefit Equity License (PBE-L) v0.1rc004
+Public Benefit Equity License (PBE-L) v0.1rc005
 
 Preamble
 This license is for software that advances broad public benefit. It permits use by qualifying individuals and benevolent organizations that operate within simple, verifiable limits; it blocks capture by for-profit and ultra-wealthy actors. Compliance is kept simple by filing a single annual Attestation by email.
@@ -73,11 +73,13 @@ This license is for software that advances broad public benefit. It permits use 
 
 6.2 What to file. The Attestation must include: (a) the Transparency Year; (b) for Organizations, the FTE window, computed FTE Headcount, and the Org Caps calculations; (c) either the required transparency content inline or stable links to existing public filings or pages that contain it; and (d) if using the small-organization safe harbor, the required statement and counts. A Compliance Contact email may be included.
 
-6.3 Deadline. File by the earlier of 120 days after fiscal year end or the deadline that applies to the Licensee’s largest mandatory annual public filing in its home jurisdiction.
+6.3 Reporting Deadline. File by the earlier of 120 days after fiscal year end or the deadline that applies to the Licensee’s largest mandatory annual public filing in its home jurisdiction.
 
 6.4 Records. Preserve the filed Attestation and supporting materials for seven years and provide them on good-faith request under Section 7.
 
 6.5 Privacy. Do not disclose personal financial account numbers or sensitive personal data. Redactions are allowed so long as figures and sources remain verifiable.
+
+6.6 Who files. The duty to file an Attestation rests on each Licensee that uses the Software. Repository maintainers, hosting providers, and contributors are not required to collect, forward, or store Attestations. Including the license, the badge, and the attestation templates satisfies their distribution duties under this license.
 
 7. Verification
 
@@ -109,9 +111,9 @@ This license is for software that advances broad public benefit. It permits use 
 
 11.2 License badge. Repositories may display a “License: PBE-L” badge that links to the canonical LICENSE text. Do not display “compliant” badges; compliance is shown by filing a current Attestation to the Attestation Inbox.
 
-12. Attribution
+12. Attribution and Distribution
 
-12.1 Preserve notices. Keep copyright notices and this license text in copies of the Software and significant portions.
+12.1 Preserve notices and templates. Keep copyright notices and this license text in copies of the Software and significant portions. When distributing with source, include the attestation/ templates directory unmodified or provide a link to the canonical templates.
 
 13. Versioning and Changes
 
