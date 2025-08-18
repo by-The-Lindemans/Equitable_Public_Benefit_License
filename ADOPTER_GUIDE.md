@@ -6,7 +6,7 @@ This guide is the authoritative instructions for adopting EPBL. The README links
 1) Copy [LICENSE.txt](./LICENSE.txt) unchanged to the repo root.
 2) Keep both templates in [attestation/](./attestation/); do not commit completed attestations.
 3) Add the License badge from [BADGE.md](./BADGE.md) to your [README.md](./README.md).
-4) Point users to the [For users of EPBL software (Licensees)](https://github.com/by-The-Lindemans/Public_Benefit_Equity_License/blob/main/ADOPTER_GUIDE.md#for-users-of-epbl-software-licensees) section below; maintainers do not collect or store attestations.
+4) Point users to the [For users of EPBL software (Licensees)](https://github.com/by-The-Lindemans/Equitable_Public_Benefit_License/blob/main/ADOPTER_GUIDE.md#for-users-of-epbl-software-licensees) section below; maintainers do not collect or store attestations.
 
 ## For users of EPBL software (Licensees)
 1) Compute your eligibility caps each year:  
