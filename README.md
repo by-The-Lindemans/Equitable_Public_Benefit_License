@@ -4,9 +4,7 @@ This repository publishes the canonical text of PBE-L and a small compliance kit
 
 ## Files
 - `LICENSE.txt` — the full legal text
-- `NOTICE` — project-specific parameters: your transparency URL, compliance contact, and optional venue override for this copy; not a substitute for the license
-- `attestation/` — one-page annual attestation templates
-- `transparency/SCHEMA.csv` and `transparency/DICTIONARY.md` — a minimal, machine-readable supplement
+- `attestation/` — the single compliance file templates; copy one and keep it current each year
 - `BADGE.md` — canonical badge snippets; copy from here into your READMEs
 
 **Getting started:** see **[Adopter Guide](./ADOPTER_GUIDE.md)** for step-by-step instructions, badge setup, and examples.
