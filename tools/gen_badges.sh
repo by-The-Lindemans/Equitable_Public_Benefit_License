@@ -1,32 +1,30 @@
 #!/usr/bin/env bash
-# Generate two Shields.io badges for EPBL.
-# 1) License badge: no icon; links to LICENSE.txt
-# 2) Compliance badge: with inline SVG logo forced to white; links to Transparency Report
+# Generate one Shields.io badge for EPBL:
+# - License badge with optional inline SVG logo (forced to white if using currentColor)
+# - Links to the canonical LICENSE by default
 set -euo pipefail
 
 usage() {
   cat <<'EOF'
 Usage:
-  tools/gen_badges.sh -s /path/to/epbl-mark.svg \
-                      -t https://your.domain/transparency \
-                      [-l https://github.com/your-org/your-repo/blob/main/LICENSE.txt]
+  tools/gen_badges.sh [-s ./assets/epbl-mark.svg] \
+                      [-l https://github.com/by-The-Lindemans/Equitable_Public_Benefit_License/blob/main/LICENSE.txt]
 
 Options:
-  -s  Path to the SVG mark (required)
-  -t  Transparency Report URL for the compliance badge (required)
-  -l  License URL for the license badge
-      default: https://github.com/by-The-Lindemans/Public_Benefit_Equity_License/blob/main/LICENSE.txt
+  -s  Path to the SVG mark (optional; default: ./assets/epbl-mark.svg if present)
+  -l  License URL for the badge
+      default: https://github.com/by-The-Lindemans/Equitable_Public_Benefit_License/blob/main/LICENSE.txt
+  -h  Help
 EOF
 }
 
-SVG=""
-TRANS_URL=""
-LIC_URL="https://github.com/by-The-Lindemans/Public_Benefit_Equity_License/blob/main/LICENSE.txt"
+# Defaults
+SVG="./assets/epbl-mark.svg"
+LIC_URL="https://github.com/by-The-Lindemans/Equitable_Public_Benefit_License/blob/main/LICENSE.txt"
 
-while getopts ":s:t:l:h" opt; do
+while getopts ":s:l:h" opt; do
   case "$opt" in
     s) SVG="$OPTARG" ;;
-    t) TRANS_URL="$OPTARG" ;;
     l) LIC_URL="$OPTARG" ;;
     h) usage; exit 0 ;;
     \?) echo "Unknown option: -$OPTARG" >&2; usage; exit 2 ;;
@@ -45,41 +43,27 @@ if [[ -n "${SVG:-}" ]] && command -v realpath >/dev/null 2>&1; then
   SVG="$(realpath "$SVG")"
 fi
 
-# Validate required args
-if [[ -z "${SVG:-}" || -z "${TRANS_URL:-}" ]]; then
-  echo "Error: -s and -t are required." >&2
-  usage; exit 2
-fi
-if [[ ! -f "$SVG" ]]; then
-  echo "Error: SVG not found at $SVG" >&2
-  exit 2
-fi
-if ! command -v python3 >/dev/null 2>&1; then
-  echo "Error: python3 is required for URL-encoding." >&2
-  exit 2
-fi
-
-# Read SVG and force white fill so the icon is white regardless of theme
-SVG_WHITE="$(sed -E 's/fill="currentColor"/fill="#fff"/g' "$SVG")"
-
-# Base64 with no wrapping (GNU base64: -w0)
-B64_LOGO="$(printf '%s' "$SVG_WHITE" | base64 -w0)"
-if [[ -z "$B64_LOGO" ]]; then
-  echo "Error: base64 produced no output; check $SVG" >&2
-  exit 2
+LOGO_PARAM=""
+if [[ -f "$SVG" ]]; then
+  # Only need python3 if we will URL-encode a data URI
+  if ! command -v python3 >/dev/null 2>&1; then
+    echo "Note: python3 not found; proceeding without logo." >&2
+  else
+    # Read SVG and force white if it uses currentColor
+    SVG_WHITE="$(sed -E 's/fill="currentColor"/fill="#fff"/g' "$SVG")"
+    # Base64 with no wrapping (GNU coreutils)
+    B64_LOGO="$(printf '%s' "$SVG_WHITE" | base64 -w0 2>/dev/null || printf '%s' "$SVG_WHITE" | base64)"
+    if [[ -n "$B64_LOGO" ]]; then
+      DATA_URI="data:image/svg+xml;base64,$B64_LOGO"
+      ENCODED_LOGO="$(printf '%s' "$DATA_URI" \
+        | python3 -c 'import sys,urllib.parse; print(urllib.parse.quote(sys.stdin.read(), safe=""))')"
+      if [[ -n "$ENCODED_LOGO" ]]; then
+        LOGO_PARAM="&logo=${ENCODED_LOGO}"
+      fi
+    fi
+  fi
 fi
 
-DATA_URI="data:image/svg+xml;base64,$B64_LOGO"
+LICENSE_BADGE="[![License: EPBL](https://img.shields.io/badge/License-EPBL-brightgreen?style=for-the-badge&labelColor=222${LOGO_PARAM})](${LIC_URL})"
 
-# Percent-encode the entire data URI for use in the logo= query param
-ENCODED_LOGO="$(printf '%s' "$DATA_URI" \
-  | python3 -c 'import sys,urllib.parse; print(urllib.parse.quote(sys.stdin.read(), safe=""))')"
-if [[ -z "$ENCODED_LOGO" ]]; then
-  echo "Error: encoding failed; got empty logo param" >&2
-  exit 2
-fi
-
-# 1) License badge: no icon
-LICENSE_BADGE="[![License: EPBL](https://img.shields.io/badge/License-EPBL-brightgreen?style=for-the-badge&labelColor=222&logo=${ENCODED_LOGO})](${LIC_URL})"
-
-printf '%s\n%s\n' "$LICENSE_BADGE"
+printf '%s\n' "$LICENSE_BADGE"
