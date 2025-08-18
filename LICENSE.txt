@@ -1,4 +1,4 @@
-Public Benefit Equity License (PBE-L) v0.1rc007
+Equitable Public Benefit License (EPBL) v0.2.0-rc1
 
 Preamble
 This license is for software that advances broad public benefit. It permits use by qualifying individuals and benevolent organizations that operate within simple, verifiable limits; it blocks capture by for-profit and ultra-wealthy actors. Compliance is kept simple by filing a single annual Attestation by email.
@@ -29,13 +29,13 @@ This license is for software that advances broad public benefit. It permits use 
 
 1.12 Income Cap means the lower of (i) the top ten percent household income threshold and (ii) the SEC accredited investor household income threshold (household), each as of the Measurement Date. If the Licensee is outside the U.S., treat (ii) as a fixed U.S. dollar value and convert per Section 1.14.
 
-1.13 FTE Headcount means the average number of full-time-equivalent workers over the 13 weeks (91 days) ending on the Measurement Date. Compute it as: FTE Headcount = total paid hours during that 13-week period ÷ 520. Include employees and contractors performing bona fide services (including paid time off); exclude unpaid volunteers. Round to the nearest whole number using half-up.
+1.13 FTE Headcount means the average number of full-time-equivalent workers over the 13 weeks (91 days) ending on the Measurement Date. Compute it as: FTE Headcount = total paid hours during that 13-week period ÷ 520. Include employees and contractors performing bona fide services, including paid time off; exclude unpaid volunteers. Round to the nearest whole number using half-up.
 
 1.14 Currency. All thresholds and bands are expressed in U.S. dollars unless the Attestation states a local currency. If local currency is used, convert U.S. dollar thresholds at the daily WM/Refinitiv 16:00 London rate on the Measurement Date and state the rate used.
 
 1.15 Org Caps. Org Net Assets Cap equals 2 × FTE Headcount × Net Worth Cap. Org Gross Receipts Cap equals 2 × FTE Headcount × Income Cap. For Organizations, net assets and gross receipts are measured under the Organization’s primary financial reporting basis for that year (for example, U.S. GAAP, IFRS, or the local nonprofit standard), applying the same basis consistently year over year.
 
-1.16 Attestation means the annual compliance statement completed on the PBE-L template for Organizations or Individuals and filed as described in Section 6.
+1.16 Attestation means the annual compliance statement completed on the EPBL template for Organizations or Individuals and filed as described in Section 6.
 
 1.17 Attestation Inbox means the submission email address for Attestations: attest@lndmn.com.
 
@@ -115,9 +115,9 @@ This license is for software that advances broad public benefit. It permits use 
 
 11. Marks and Badge
 
-11.1 Marks. Public Benefit Equity License and PBE-L are marks of the Licensor. Use them only to refer to the unmodified license.
+11.1 Marks. Equitable Public Benefit License and EPBL are marks of the Licensor. Use them only to refer to the unmodified license.
 
-11.2 License badge. Repositories may display a License: PBE-L badge that links to the canonical LICENSE text. Do not display compliant badges; compliance is shown by filing a current Attestation to the Attestation Inbox.
+11.2 License badge. Repositories may display a License: EPBL badge that links to the canonical LICENSE text. Do not display compliant badges; compliance is shown by filing a current Attestation to the Attestation Inbox.
 
 12. Attribution and Distribution
 
@@ -137,7 +137,7 @@ This license is for software that advances broad public benefit. It permits use 
 
 14.3 Entire agreement. This license is the entire agreement on its subject matter.
 
-14.4 Permission to use this license text. You may copy and distribute this license text; you may apply it, unmodified, to your own software and repositories. If you change the terms, do not call the result PBE-L and do not use the PBE-L marks except as permitted in Section 11.
+14.4 Permission to use this license text. You may copy and distribute this license text; you may apply it, unmodified, to your own software and repositories. If you change the terms, do not call the result EPBL and do not use the EPBL marks except as permitted in Section 11.
 
 14.5 Survival. Sections 5, 6.4, 6.5, 7, 8, 9, 10.2, 11, 12, and 14 survive termination.
 
