@@ -1,14 +1,13 @@
 # PBE-L Attestation (Organization)
 
-Complete and upload at https://YOUR-PORTAL/attest; do not commit completed copies to this repo.
+Complete this form each Transparency Year and email it to attest@lndmn.com. Do not commit completed copies to this repository.
 
 Entity: REPLACE-WITH-ORG-NAME  
 Transparency Year: 2025  
-Venue override (optional): STATE, USA; COUNTY courts  
 Compliance contact (optional): compliance@your-domain.example
 
-## Transparency Report (inline or link to existing filings)
-Public page: https://your-domain.example/transparency/this-project  
+## Transparency materials (inline or links to existing public filings)
+Public page or primary document: https://example.org/your-transparency-page  
 Existing filings used (if any): Form 990 for 2025 at https://...
 
 ### Required tabular items (inline or linked)
