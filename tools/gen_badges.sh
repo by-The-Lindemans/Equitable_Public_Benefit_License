@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Generate two Shields.io badges for PBE-L.
+# Generate two Shields.io badges for EPBL.
 # 1) License badge: no icon; links to LICENSE.txt
 # 2) Compliance badge: with inline SVG logo forced to white; links to Transparency Report
 set -euo pipefail
@@ -7,7 +7,7 @@ set -euo pipefail
 usage() {
   cat <<'EOF'
 Usage:
-  tools/gen_badges.sh -s /path/to/pbel-mark.svg \
+  tools/gen_badges.sh -s /path/to/epbl-mark.svg \
                       -t https://your.domain/transparency \
                       [-l https://github.com/your-org/your-repo/blob/main/LICENSE.txt]
 
@@ -80,9 +80,6 @@ if [[ -z "$ENCODED_LOGO" ]]; then
 fi
 
 # 1) License badge: no icon
-LICENSE_BADGE="[![License: PBE-L](https://img.shields.io/badge/License-PBE--L-brightgreen?style=for-the-badge&labelColor=222)](${LIC_URL})"
+LICENSE_BADGE="[![License: EPBL](https://img.shields.io/badge/License-EPBL-brightgreen?style=for-the-badge&labelColor=222&logo=${ENCODED_LOGO})](${LIC_URL})"
 
-# 2) Compliance badge: icon included; icon is white
-COMPLIANCE_BADGE="[![PBE-L compliant](https://img.shields.io/badge/PBE--L-compliant-brightgreen?style=for-the-badge&labelColor=222&logo=${ENCODED_LOGO})](${TRANS_URL})"
-
-printf '%s\n%s\n' "$LICENSE_BADGE" "$COMPLIANCE_BADGE"
+printf '%s\n%s\n' "$LICENSE_BADGE"
