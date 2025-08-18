@@ -10,7 +10,6 @@ body:
       value: |
         Thanks for reaching out. This form is for general questions. 
         Do not report alleged license violations here; use **"Report a license violation"**. 
-        Do not report security issues here; follow the **Security policy** link on the New issue page.
 
   - type: checkboxes
     id: precheck
