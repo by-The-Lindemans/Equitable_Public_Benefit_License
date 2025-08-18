@@ -4,7 +4,9 @@ This repository publishes the canonical text of PBE-L and a small compliance kit
 
 ## Files
 [LICENSE.txt](./LICENSE.txt) — the full legal text
+
 [attestation/](./attestation/) — fill-in templates for the annual Attestation; users complete and email to attest@lndmn.com
+
 [BADGE.md](./BADGE.md) — the canonical PBE-L badge snippet
 
 ## Getting started (for repository maintainers)
