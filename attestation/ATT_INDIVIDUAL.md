@@ -1,6 +1,6 @@
 # PBE-L Attestation (Individual)
 
-Complete and upload at https://YOUR-PORTAL/attest; do not commit completed copies to this repo.
+Complete this form each Transparency Year and email it to attest@lndmn.com. Do not commit completed copies to this repository.
 
 Name or pseudonym: REPLACE-WITH-NAME  
 Transparency Year: 2025
