@@ -3,11 +3,11 @@
 This repository publishes the canonical text of PBE-L and a small compliance kit for adopters. PBE-L keeps overhead low for good-faith nonprofits and co-ops while preventing capture by for-profit and ultra-wealthy actors.
 
 ## Files
-[LICENSE.txt](./LICENSE.txt) — the full legal text
+[LICENSE.txt](./LICENSE.txt): the full legal text
 
-[attestation/](./attestation/) — fill-in templates for the annual Attestation; users complete and email to attest@lndmn.com
+[attestation/](./attestation/): fill-in templates for the annual Attestation; users complete and email to attest@lndmn.com
 
-[BADGE.md](./BADGE.md) — the canonical PBE-L badge snippet
+[BADGE.md](./BADGE.md): the canonical PBE-L badge snippet
 
 ## Getting started (for repository maintainers)
 1) Copy [LICENSE.txt](./LICENSE.txt) unchanged to the repo root.
