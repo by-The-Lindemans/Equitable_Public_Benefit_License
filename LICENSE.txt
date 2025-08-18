@@ -1,7 +1,7 @@
-Public Benefit Equity License (PBE-L) v0.1rc002
+Public Benefit Equity License (PBE-L) v0.1rc003
 
 Preamble
-This license is for software that advances broad public benefit. It permits use by qualifying individuals and benevolent organizations that operate within simple, verifiable limits; it blocks capture by for-profit and ultra-wealthy actors. It keeps overhead low by making one file in the repository the source of truth for compliance.
+This license is for software that advances broad public benefit. It permits use by qualifying individuals and benevolent organizations that operate within simple, verifiable limits; it blocks capture by for-profit and ultra-wealthy actors. Compliance is kept simple by using a single public Attestation filed in a centralized portal.
 
 1. Definitions
 
@@ -29,13 +29,13 @@ This license is for software that advances broad public benefit. It permits use 
 
 1.12 Org Caps. Org Net Assets Cap equals 2 x FTE Headcount x Net Worth Cap. Org Gross Receipts Cap equals 2 x FTE Headcount x Income Cap.
 
-1.13 Attestation means a single file committed to the default branch of the repository named either attestation/ATT_ORG.md (for Organizations) or attestation/ATT_INDIVIDUAL.md (for Individuals). The Attestation is the Licensee’s compliance file and public location for required reporting.
+1.13 Attestation means the annual compliance form filed by the Licensee in the PBE-L Portal.
 
-1.14 Public Location means the URL of the Attestation file in the repository hosting service, or a URL under the Licensee’s control that is linked from the Attestation.
+1.14 Public Location means the Licensee’s Attestation page in the PBE-L Portal at https://YOUR-PORTAL.
 
-1.15 Venue means Oregon, USA; Multnomah County courts, unless a different U.S. state and county are specified in the Attestation.
+1.15 Venue means Oregon, USA; Multnomah County courts, unless the Licensee specifies a different U.S. state and county in its Attestation in the PBE-L Portal.
 
-1.16 Compliance Contact means an email address included in the Attestation to receive compliance questions.
+1.16 Compliance Contact means an email address the Licensee may provide in the Attestation to receive compliance questions.
 
 2. Grant
 
@@ -59,7 +59,7 @@ This license is for software that advances broad public benefit. It permits use 
 
 4.1 Payroll Allowed. Organizations may use the Software to fund or inform payroll and benefits for bona fide services.
 
-4.2 Equitable Application. If the Software funds or informs pay, the Organization must apply the benefits of the Software equitably among employees. The Organization must disclose executive pay in bands no wider than 25,000 in the Attestation or in a linked report.
+4.2 Equitable Application. If the Software funds or informs pay, the Organization must apply the benefits of the Software equitably among employees. The Organization must disclose executive pay in bands no wider than 25,000 in its Transparency Report or in linked filings.
 
 5. Consolidation and Anti-Fragmentation
 
@@ -69,31 +69,25 @@ This license is for software that advances broad public benefit. It permits use 
 
 6. Transparency and Attestation
 
-6.1 Single Public Location. The Attestation is the controlling Public Location for required reporting. A repository may include a “PBE-L compliant” badge that links to the Attestation.
+6.1 Single Public Location. The Attestation, filed in the PBE-L Portal, is the controlling Public Location for required reporting.
 
-6.2 What to publish. For each Transparency Year, publish at the Public Location:
-(a) the Transparency Year;
-(b) for Organizations: FTE window, computed FTE Headcount, and the Org Caps calculations for the year;
-(c) either the required transparency content inline or stable links to existing filings or pages that contain it; tabular items may be in an attached CSV that follows the schema in this repository; and
-(d) if using the small-organization safe harbor, the statement and counts required by that safe harbor.
+6.2 What to publish. For each Transparency Year, the Licensee must publish in the PBE-L Portal: (a) the Transparency Year; (b) for Organizations, the FTE window, computed FTE Headcount, and the Org Caps calculations; (c) either the required transparency content inline or stable links to existing public filings or pages that contain it; and (d) if using the small-organization safe harbor, the required statement and counts.
 
-6.3 Deadline. Publish by the earlier of 120 days after fiscal year end or the deadline that applies to the Organization’s largest mandatory annual public filing in its home jurisdiction.
+6.3 Deadline. Publish by the earlier of 120 days after fiscal year end or the deadline that applies to the Licensee’s largest mandatory annual public filing in its home jurisdiction.
 
-6.4 Stability. If you use links, keep them stable and accessible for at least seven years.
+6.4 Stability. If links are used, they must remain stable and accessible for at least seven years.
 
-6.5 Contact and Venue. The Attestation may include a Compliance Contact. If the Attestation specifies a different U.S. state and county for Venue, that override applies; otherwise Venue is as defined in Section 1.15.
+6.5 Privacy. Do not disclose personal financial account numbers or sensitive personal data. Redactions are allowed so long as figures and sources remain verifiable.
 
 7. Verification
 
 7.1 Good-faith requests. Licensor or any user with a good-faith concern may request that you verify eligibility or reporting. You must respond within 30 days with a brief statement and links or redacted documents sufficient to confirm compliance.
 
-7.2 Privacy. Do not disclose personal financial account numbers or sensitive personal data. Redactions are allowed so long as figures and sources remain verifiable.
-
 8. Termination and Cure
 
 8.1 Automatic termination. This license terminates automatically if you breach Section 3 or 6.
 
-8.2 Cure period. If the breach is curable, the license reinstates automatically on the thirty-first day after you fully cure and publish a corrected Attestation.
+8.2 Cure period. If the breach is curable, the license reinstates automatically on the thirty-first day after you fully cure and file an updated Attestation.
 
 8.3 No use after termination. After termination you must stop using the Software, Outputs, and Artifacts and must not rediscover or reacquire access through intermediaries.
 
@@ -109,11 +103,11 @@ This license is for software that advances broad public benefit. It permits use 
 
 10.2 Patent retaliation. If you make any claim that the Software infringes a patent, your license under this license ends immediately.
 
-11. Marks and Badges
+11. Marks and Badge
 
-11.1 Marks. “Public Benefit Equity License”, “PBE-L”, and the PBE-L badge are marks of the Licensor. You may use the names and badge to refer to the unmodified license or to indicate that your repository maintains a current Attestation. Do not use the marks in a way that suggests a modified license is PBE-L.
+11.1 Marks. “Public Benefit Equity License” and “PBE-L” are marks of the Licensor. Use them only to refer to the unmodified license.
 
-11.2 Badge link. If you display the PBE-L compliant badge, the link target must be the Attestation file in your repository.
+11.2 License badge. Repositories may display a “License: PBE-L” badge that links to the canonical LICENSE text. Do not display “compliant” badges; compliance is shown by a current Attestation in the PBE-L Portal.
 
 12. Attribution
 
