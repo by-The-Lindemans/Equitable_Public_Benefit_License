@@ -1,4 +1,4 @@
-Equitable Public Benefit License (EPBL) v0.2.0-rc3
+Equitable Public Benefit License (EPBL) v0.2.0-rc4
 
 Preamble
 This license is for software that advances broad public benefit. It permits use by qualifying individuals and benevolent organizations that operate within simple, verifiable limits; it blocks capture by for-profit and ultra-wealthy actors. Compliance is kept simple by filing a single annual Attestation by email.
@@ -17,7 +17,7 @@ This license is for software that advances broad public benefit. It permits use 
 
 1.6 Benevolent Organization means an Organization that is not for-profit; has a primary public benefit mission stated in its charter or bylaws; applies benefits from the Software equitably among employees if it uses the Software to fund or inform pay; and is not subject to Control by Outside Capital.
 
-1.7 Control and Outside Capital. Control means, directly or indirectly, (a) ownership of more than 50 percent of voting interests; or (b) contractual or other practical ability to direct management and policies. Entities under common Control are under common control. Outside Capital means any investor, lender, private owner, or similar capital provider whose primary objective is financial return ahead of the Organization’s public-benefit mission, including where return-seeking rights or covenants create practical ability to direct the Organization’s use of the Software.
+1.7 Control and Outside Capital. Control means, directly or indirectly, (a) ownership of more than 50 percent of voting interests; or (b) contractual or other practical ability to direct management and policies. Outside Capital means any investor, lender, private owner, or similar capital provider whose primary objective is financial return ahead of the Organization’s public-benefit mission, including where return-seeking rights or covenants create practical ability to direct the Organization’s use of the Software.
 
 1.8 Transparency Year means the Organization’s fiscal year; for Individuals, the calendar year.
 
@@ -33,7 +33,7 @@ This license is for software that advances broad public benefit. It permits use 
 
 1.14 Currency. All thresholds and bands are expressed in U.S. dollars unless the Attestation states a local currency. If local currency is used, convert U.S. dollar thresholds at the daily WM/Refinitiv 16:00 London rate on the Measurement Date and state the rate used.
 
-1.15 Org Caps. Org Net Assets Cap equals 2 × FTE Headcount × Net Worth Cap. Org Gross Receipts Cap equals 2 × FTE Headcount × Income Cap. For Organizations, net assets and gross receipts are measured under the Organization’s primary financial reporting basis for that year (for example, U.S. GAAP, IFRS, or the local nonprofit standard), applying the same basis consistently year over year.
+1.15 Org Caps. Org Net Assets Cap equals 2 × FTE Headcount × the Net Worth Cap. Org Gross Receipts Cap equals 2 × FTE Headcount × the Income Cap. For Organizations, net assets and gross receipts are measured under the Organization’s primary financial reporting basis for that year (for example, U.S. GAAP, IFRS, or the local nonprofit standard), applying the same basis consistently year over year.
 
 1.16 Attestation means the annual compliance statement completed on the EPBL template for Organizations or Individuals and filed as described in Section 6.
 
@@ -45,11 +45,23 @@ This license is for software that advances broad public benefit. It permits use 
 
 1.20 Public Reporting Channel means the public issue form titled “Report a license violation” in the canonical EPBL repository on GitHub, or any successor page the Licensor identifies in that repository.
 
+1.21 Business Day means any day other than Saturday, Sunday, or a U.S. federal legal holiday in California.
+
+1.22 Executive means any officer or employee whose total compensation is among the five highest for the Transparency Year, plus the principal executive officer, whether or not among the five highest.
+
+1.23 Prohibited User means any person or entity described in Section 3.3 (including any person or entity above the applicable Caps).
+
+1.24 Governing Law means the law of the State of California, without regard to conflict-of-laws rules.
+
+1.25 Marks means the names “Equitable Public Benefit License” and “EPBL”.
+
 2. Grant
 
 2.1 License Grant. Subject to Section 3 and the other terms of this license, the Licensor grants you a worldwide, royalty-free, non-exclusive license to use, copy, modify, and distribute the Software and Outputs for purposes consistent with this license.
 
 2.2 No Trademark. This license does not grant rights in names, logos, or trademarks except as allowed in Section 11.
+
+2.3 Acceptance. By exercising any rights granted by this license (including use, copying, modification, or distribution), you accept these terms.
 
 3. Eligibility and Use Limits
 
@@ -57,17 +69,19 @@ This license is for software that advances broad public benefit. It permits use 
 
 3.2 Allowed Organizations. An Organization may use the Software only if it is a Benevolent Organization and, measured for the Transparency Year, both its net assets and gross receipts are at or below the Org Caps.
 
-3.3 Prohibited Users. For-profit entities; investment funds; proprietary trading firms; high-frequency or market-making firms; Organizations under Control by Outside Capital; and any Individual or Organization above the applicable Caps are prohibited users.
+3.3 Prohibited Users. For-profit entities; investment funds; proprietary trading firms; high-frequency or market-making firms; Organizations under Control by Outside Capital; and any Individual or Organization above the applicable Caps are Prohibited Users.
 
-3.4 No Brokerage of Prohibited Use. You must not provide the Software, Outputs, or Artifacts to a prohibited user; you must not operate the Software as a service for a prohibited user; and you must not design around these conditions by interposing agents, shells, or contractors.
+3.4 No Brokerage of Prohibited Use. You must not provide the Software, Outputs, or Artifacts to a Prohibited User; you must not operate the Software as a service for a Prohibited User; and you must not design around these conditions by interposing agents, shells, or contractors.
 
-3.5 Research Sharing. You may publish methods and aggregate statistics. You must not publish Artifacts or parameter sets that would reasonably enable a prohibited user to reproduce the Software’s performance.
+3.5 Research Sharing. You may publish methods and aggregate statistics. You must not publish Artifacts or parameter sets that would reasonably enable a prohibited user to reproduce the Software’s performance. You must not publish Outputs that, in form or substance, function as Artifacts.
+
+3.6 Export controls and sanctions. You must comply with applicable export, re-export, and sanctions laws. You must not use or provide the Software, Outputs, or Artifacts to any person or entity (or for any end-use) that is prohibited under U.S. sanctions or export control laws, including persons on OFAC’s Specially Designated Nationals or other blocked lists.
 
 4. Employment and Pay
 
 4.1 Payroll Allowed. Organizations may use the Software to fund or inform payroll and benefits for bona fide services.
 
-4.2 Equitable Application. If the Software funds or informs pay, the Organization must apply the benefits of the Software equitably among employees. The Organization must disclose executive pay in bands no wider than 25,000 (state the currency and year) in its transparency materials or in linked filings referenced in the Attestation. Executive means any officer or employee whose total compensation is among the five highest for the Transparency Year, plus the principal executive officer, whether or not among the five highest.
+4.2 Equitable Application. If the Software funds or informs pay, the Organization must apply the benefits of the Software equitably among employees. The Organization must disclose Executive compensation in bands no wider than 25,000 (state the currency and year) in its transparency materials or in linked filings referenced in the Attestation.
 
 5. Consolidation and Anti-Fragmentation
 
@@ -79,11 +93,11 @@ This license is for software that advances broad public benefit. It permits use 
 
 6.1 Single filing channel. File the Attestation each Transparency Year by email to the Attestation Inbox at attest@lndmn.com. Keep a copy of the filed Attestation and any attachments.
 
-6.1.1 Submission and receipt. Attestations must be sent to attest@lndmn.com as PDF or Markdown attachments. Attachments should not exceed twenty megabytes in total; if larger, provide a link to a publicly readable copy. An Attestation is deemed received on the earlier of (a) Licensor’s email acknowledgment, or (b) two business days after a message without a bounce is sent, as shown by the Licensee’s SMTP server logs. Licensees must retain evidence of sending and any acknowledgment.
+6.1.1 Submission and receipt. Attestations must be sent to attest@lndmn.com as PDF or Markdown attachments. Attachments should not exceed twenty megabytes in total; if larger, provide a link to a publicly readable copy. An Attestation is deemed received on the earlier of (a) Licensor’s email acknowledgment, or (b) two Business Days measured in Pacific Time in California after a message without a bounce is sent, as shown by the Licensee’s SMTP server logs. Licensees must retain evidence of sending and any acknowledgment.
 
-6.2 What to file. The Attestation must include: (a) the Transparency Year; (b) for Organizations, the FTE window, computed FTE Headcount, and the Org Caps calculations; and (c) either the required transparency content inline or stable links to existing public filings or pages that contain it. A Compliance Contact email may be included.
+6.2 What to file. The Attestation must include: (a) the Transparency Year; (b) for Organizations, the FTE window, computed FTE Headcount, and the Org Caps calculations; and (c) either the required transparency content inline or stable links to existing public filings or pages that contain it. A Compliance Contact email may be included. An Attestation may be signed electronically and is valid if signed by an authorized officer or the Individual.
 
-6.3 Reporting Deadline. File by the earlier of 120 days after fiscal year end or the deadline that applies to the Licensee’s largest mandatory annual public filing in its home jurisdiction.
+6.3 Reporting Deadline. File by the earlier of 120 days after fiscal year end or the deadline that applies to the Licensee’s largest mandatory annual public filing in its home jurisdiction. If the Reporting Deadline falls on a day that is not a Business Day, the deadline is the next Business Day. Deadlines are measured in Pacific Time in California.
 
 6.4 Records. Preserve the filed Attestation and supporting materials for seven years and provide them on good-faith request under Section 7. Evidence of timely filing includes any of: Licensor’s acknowledgment; outbound server logs showing successful delivery without bounce; or a timestamped submission receipt if provided by Licensor.
 
@@ -91,13 +105,17 @@ This license is for software that advances broad public benefit. It permits use 
 
 6.6 Who files. The duty to file an Attestation rests on each Licensee that uses the Software. Repository maintainers, hosting providers, and contributors are not required to collect, forward, or store Attestations. Including the license, the badge, and the attestation templates satisfies their distribution duties under this license.
 
-6.7 Public reporting channel. Anyone may submit alleged violations or misuse through the Public Reporting Channel. Submissions there are public by default. Do not include account numbers, sensitive personal data, or confidential business information in a public submission.
+6.7 Public Reporting Channel. Anyone may submit alleged violations or misuse through the Public Reporting Channel. Submissions there are public by default. Do not include account numbers, sensitive personal data, or confidential business information in a public submission.
 
 6.8 Public reports are not Attestations or legal notice. A submission to the Public Reporting Channel does not satisfy any filing duty under this license and is not legal notice to any party. Licensees must file Attestations by email to the Attestation Inbox. Formal notices or verification requests under Section 7.1 must be sent privately.
+
+6.9 Updating contact points. Licensor may change the Attestation Inbox or the Public Reporting Channel by publishing the new address or link in the canonical EPBL repository. The change is effective on publication.
 
 7. Verification
 
 7.1 Good-faith requests. Licensor, or a third party designated by Licensor, may request verification no more than once per Transparency Year absent credible evidence of non-compliance. Requests must identify the provision at issue and the Transparency Year and must be sent privately. Licensee must respond within 30 days with a brief statement and links or redacted documents sufficient to confirm compliance.
+
+7.2 Use and confidentiality of verification materials. Materials you provide under Section 7.1 may be used solely to verify compliance under this license. Licensor and any designee must take reasonable steps to protect non-public information in those materials and may disclose them only to courts, regulators, or advisors as reasonably necessary for enforcement.
 
 8. Termination and Cure
 
@@ -121,9 +139,9 @@ This license is for software that advances broad public benefit. It permits use 
 
 11. Marks and Badge
 
-11.1 Marks. Equitable Public Benefit License and EPBL are marks of the Licensor. Use them only to refer to the unmodified license.
+11.1 Marks. The Marks are marks of the Licensor. Use them only to refer to the unmodified license.
 
-11.2 License badge. Repositories may display a License: EPBL badge that links to the canonical LICENSE text. Do not display compliant badges; compliance is shown by filing a current Attestation to the Attestation Inbox.
+11.2 License badge. Repositories may display a License: EPBL badge that links to the canonical LICENSE text.
 
 12. Attribution and Distribution
 
@@ -137,7 +155,7 @@ This license is for software that advances broad public benefit. It permits use 
 
 14. Boilerplate
 
-14.1 Severability. If any provision is unenforceable, the remainder remains in effect to the maximum extent permitted.
+14.1 Severability and reformation. If any provision (or its application) is invalid or unenforceable, the remainder remains in effect to the maximum extent permitted. The invalid or unenforceable provision will be enforced to the fullest extent permitted and reformed as needed to be enforceable (blue-penciled).
 
 14.2 No waiver. A failure to enforce any provision is not a waiver of future enforcement.
 
@@ -153,6 +171,12 @@ This license is for software that advances broad public benefit. It permits use 
 
 14.8 Forum selection and consent. Each party consents to personal jurisdiction in the courts defined in Section 1.18; waives objections based on inconvenience; and agrees that venue there is proper.
 
-14.9 Service. Each party consents to service of process by email to the addresses provided in the Attestation (for Organizations, the registered agent address also applies), with a courier or certified-mail copy sent the same day.
+14.9 Service. Each party consents to service of process by email and courier. For Licensee, service may be sent to the addresses provided in the Attestation (and, for Organizations, to the registered agent). For Licensor, service may be sent to the Attestation Inbox or any replacement published under Section 6.9. A courier or certified-mail copy must be sent the same day.
 
-Governing Law and Venue: California law governs this license without regard to conflict-of-laws rules; exclusive venue lies in the courts defined in Section 1.18, except as provided in Section 14.7.
+14.10 Construction. "Including" means "including without limitation." Headings are for convenience only. Ambiguities are not construed against the drafter.
+
+14.11 Governing language. If this license is translated, the English version controls.
+
+14.12 No third-party beneficiaries. This license creates no third-party beneficiary rights.
+
+Governing Law and Venue: as defined in Sections 1.24 and 1.18.
