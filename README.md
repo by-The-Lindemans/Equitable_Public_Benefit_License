@@ -13,6 +13,8 @@ This repository publishes the canonical text of PBE-L and a small compliance kit
 3) Add the single License badge from **BADGE.md** to your README.  
 4) Each year, each user must complete the appropriate Attestation and email it to **attest@lndmn.com** by the Reporting Deadline defined in the license.
 
+Details live here: see ADOPTER_GUIDE.md for the Reporting Deadline, what to include, and annual checklists.
+
 ## Changes and corrections
 - We accept errata; we track them in `CHANGELOG.md`.
 - Policy proposals are not in scope for this repo. See `CONTRIBUTING.md` for the process.
