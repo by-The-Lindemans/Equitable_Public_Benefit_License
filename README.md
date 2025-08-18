@@ -4,10 +4,15 @@ This repository publishes the canonical text of PBE-L and a small compliance kit
 
 ## Files
 - `LICENSE.txt` — the full legal text
-- `attestation/` — the single compliance file templates; folder should be any repo using license; users must copy one and keep it current each year
-- `BADGE.md` — canonical badge snippets; copy from here into your READMEs
+- `attestation/` — fill-in templates for the annual Attestation; users complete and upload through the PBE-L Portal
+- `transparency/SCHEMA.csv` and `transparency/DICTIONARY.md` — optional machine-readable supplement
+- `BADGE.md` — the canonical PBE-L badge snippet
 
-**Getting started:** see **[Adopter Guide](./ADOPTER_GUIDE.md)** for step-by-step instructions, badge setup, and examples.
+**Getting started**
+1) Copy `LICENSE.txt` unchanged to repo root.  
+2) Keep both templates in `attestation/`; do not commit completed attestations here.  
+3) Add the single License badge from **BADGE.md** to your README.  
+4) Direct users to the PBE-L Portal for annual uploads: https://YOUR-PORTAL/attest
 
 ## Changes and corrections
 - We accept errata; we track them in `CHANGELOG.md`.
