@@ -1,4 +1,4 @@
-# PBE-L Attestation (Individual)
+# EPBL Attestation (Individual)
 
 Complete this form each Transparency Year and email it to attest@lndmn.com. Do not commit completed copies to this repository.
 
