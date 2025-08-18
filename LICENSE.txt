@@ -1,4 +1,4 @@
-Public Benefit Equity License (PBE-L) v1.0
+Public Benefit Equity License (PBE-L) v0.1rc002
 
 Preamble
 This license is for software that advances broad public benefit. It permits use by qualifying individuals and benevolent organizations that operate within simple, verifiable limits; it blocks capture by for-profit and ultra-wealthy actors. It keeps overhead low by making one file in the repository the source of truth for compliance.
