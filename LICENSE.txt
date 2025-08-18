@@ -1,200 +1,128 @@
-Public Benefit Equity License v0.1rc001
+Public Benefit Equity License (PBE-L) v1.0
 
-Copyright © 2025 by the Lindemans LLC
+Preamble
+This license is for software that advances broad public benefit. It permits use by qualifying individuals and benevolent organizations that operate within simple, verifiable limits; it blocks capture by for-profit and ultra-wealthy actors. It keeps overhead low by making one file in the repository the source of truth for compliance.
 
-1. Purpose
-This license lets ordinary people and mission-driven organizations use, study, modify, and share the Software, including for financial gain or other material benefit, while preventing Use by for-profit corporations and by individuals above a defined wealth threshold. The goal is to broaden access to tools for public benefit.
+1. Definitions
 
-2. Definitions
-“Software” means the source code, object code, build scripts, and documentation distributed under this license.
+1.1 Software means the licensed code, models, data files, documentation, and build or configuration files included in this repository.
 
-“You” means the natural person or legal entity exercising rights under this license.
+1.2 Outputs means the results produced by running the Software.
 
-“Use” means running, copying, modifying, distributing, deploying, hosting, or serving the Software (including providing it as an API or service); preparing derivative works; or using its Outputs or Artifacts to inform or automate decisions, create content, or perform tasks.
+1.3 Artifacts means trained weights, datasets, prompts, parameter sets, or other configuration elements that materially enable reproduction of the Software’s performance without access to the Software itself.
 
-“Financial Gain” means monetary compensation, revenue, trading profits, interest, dividends, fees, or donations attributable to Use.
+1.4 Individual means a natural person using the Software for their own purposes.
 
-“Material Benefit” means Financial Gain or any other measurable advantage attributable to Use, including cost savings, avoided losses, efficiency gains, or strategic advantage.
+1.5 Organization means any legal entity other than a natural person, including a nonprofit, cooperative, foundation, association, or company, and any group operating as a joint venture or under common control.
 
-“Outputs or Artifacts” means results produced by the Software, including predictions, recommendations, signals, generated content, datasets, model weights, parameter sets, embeddings, prompts, tuned configurations, or code produced by or derived primarily from the Software.
+1.6 Benevolent Organization means an Organization that is not for-profit; has a primary public benefit mission stated in its charter or bylaws; applies benefits from the Software equitably among employees if it uses the Software to fund or inform pay; and is not subject to Control by Outside Capital.
 
-“Proceeds of Use” means Financial Gain attributable to Use net of ordinary operating expenses.
+1.7 Control and Outside Capital. Control means the practical ability to direct an Organization’s policies or use of the Software, whether through equity, debt, contracts, or board authority. Outside Capital means investors, lenders, or principals whose primary objective is financial return rather than the Organization’s public benefit mission.
 
-“Affiliate” means an entity that controls, is controlled by, or is under common control with a party; control means direct or indirect ownership of at least twenty five percent of the voting securities or beneficial interest, or the power to direct management.
+1.8 Transparency Year means the Organization’s fiscal year; for Individuals, the calendar year.
 
-“Neutral Infrastructure Provider” means a service that offers hosting, compute, storage, networking, delivery, execution, custody, clearing, or analogous infrastructure on standard terms to many customers and that does not receive a share of Proceeds of Use.
+1.9 Net Worth Cap means the top ten percent household net worth threshold as reported by the Licensee’s national statistics office or by the U.S. Survey of Consumer Finances.
 
-“Household” means all persons who occupy a housing unit and share income, under the legal or statistical definition applied by the national statistics office of the person’s tax residence. If no such definition exists, use the U.S. Census Bureau household definition.
+1.10 Income Cap means the lower of the top ten percent household income threshold and the SEC accredited investor household income threshold. Use current published figures; update when sources update.
 
-“Top 10% Household Net Worth Threshold” means the 90th percentile cutoff of household net worth for the most recent year published by the national statistics office of the person’s tax residence; if unavailable, use the most recent U.S. Federal Reserve Survey of Consumer Finances or successor publication and convert to local currency at the daily WM/Refinitiv spot midrate.
+1.11 FTE Headcount means the average of paid hours over the prior 90 days divided by 40; include employees and contractors performing bona fide services.
 
-“Top 10% Household Income Threshold” means the 90th percentile cutoff of household income for the most recent year published by the national statistics office of the person’s tax residence; if unavailable, use the most recent U.S. Census CPS ASEC or successor publication and convert to local currency at the daily WM/Refinitiv spot midrate.
+1.12 Org Caps. Org Net Assets Cap equals 2 x FTE Headcount x Net Worth Cap. Org Gross Receipts Cap equals 2 x FTE Headcount x Income Cap.
 
-“Accredited Investor Income Threshold” means the household income level specified in 17 CFR 230.501(a), as amended from time to time, applied as USD 300,000 for joint households and USD 200,000 for individuals; convert to local currency at the daily WM/Refinitiv spot midrate.
+1.13 Attestation means a single file committed to the default branch of the repository named either attestation/ATT_ORG.md (for Organizations) or attestation/ATT_INDIVIDUAL.md (for Individuals). The Attestation is the Licensee’s compliance file and public location for required reporting.
 
-“Wealth Caps” means the following values, each auto-updating as sources update:
-(a) Net Worth Cap: the Top 10% Household Net Worth Threshold; and
-(b) Income Cap: the lower of the Top 10% Household Income Threshold and the Accredited Investor Income Threshold.
+1.14 Public Location means the URL of the Attestation file in the repository hosting service, or a URL under the Licensee’s control that is linked from the Attestation.
 
-“Permitted Individual User” means a natural person who:
-(a) has Net Worth strictly below the Net Worth Cap; and
-(b) has Income strictly below the Income Cap for each of the two most recent tax years; and
-(c) Uses the Software only for that person’s own accounts and not on behalf of any other person or entity. A Permitted Individual User may not Use the Software for any account, pool, project, or vehicle owned by another person or entity, whether by power of attorney, service agreement, or similar arrangement.
+1.15 Venue means Oregon, USA; Multnomah County courts, unless a different U.S. state and county are specified in the Attestation.
 
-“Outside Capital” means capital, grants, loans, or in-kind funding provided by a Prohibited Person or Prohibited Entity. It does not include arm’s-length payments for ordinary goods or services.
+1.16 Compliance Contact means an email address included in the Attestation to receive compliance questions.
 
-“Control by Outside Capital” means any of the following: (a) a Prohibited Person or Prohibited Entity can appoint, remove, or veto more than twenty five percent of the governing body; (b) holds a veto right over budgets, compensation plans under this license, or Use of the Software; or (c) is contractually entitled to any distribution of Organization assets or returns other than lawful payroll and benefits.
+2. Grant
 
-“Benevolent Organization” means any entity that:
-(a) is a legal nonprofit or charity under the law where it is formed; or
-(b) is a cooperative owned and governed by its members or workers; or
-(c) is a public-benefit or community-interest entity whose governing documents prohibit private distribution of profits except as reasonable compensation;
-and is not controlled by outside capital and is not subject to Control by Outside Capital.
+2.1 License Grant. Subject to Section 3 and the other terms of this license, the Licensor grants you a worldwide, royalty-free, non-exclusive license to use, copy, modify, and distribute the Software and Outputs for purposes consistent with this license.
 
-“Mission-Related Purpose” means a purpose that directly advances the Benevolent Organization’s chartered public or member benefit. Allowed uses include lawful wages, salaries, benefits, and patronage dividends in a cooperative. Disallowed uses include distributions to investors or owners other than those allowed uses.
+2.2 No Trademark. This license does not grant rights in names, logos, or trademarks except as allowed in Section 11.
 
-“Employee” means a natural person employed by a Benevolent Organization.
+3. Eligibility and Use Limits
 
-“Contractor” means a natural person engaged by a Benevolent Organization to perform Bona Fide Services under a written agreement.
+3.1 Allowed Individuals. An Individual may use the Software only if the Individual’s household wealth and income are at or below the Net Worth Cap and Income Cap.
 
-“Bona Fide Services” means actual services performed for the organization in operations, administration, research, engineering, compliance, or governance; not including passive investment, mere endorsement, referral, or acting as a conduit for others.
+3.2 Allowed Organizations. An Organization may use the Software only if it is a Benevolent Organization and, measured for the Transparency Year, both its net assets and gross receipts are at or below the Org Caps.
 
-“Reasonable Compensation” means compensation that would ordinarily be paid for like services by like organizations under like circumstances.
+3.3 Prohibited Users. For-profit entities; investment funds; proprietary trading firms; high-frequency or market-making firms; Organizations under Control by Outside Capital; and any Individual or Organization above the applicable Caps are prohibited users.
 
-“Compensation Plan” means a written policy adopted by the Organization’s governing body that describes compensation types, eligibility, and formulas for similarly situated roles.
+3.4 No Brokerage of Prohibited Use. You must not provide the Software, Outputs, or Artifacts to a prohibited user; you must not operate the Software as a service for a prohibited user; and you must not design around these conditions by interposing agents, shells, or contractors.
 
-“Equitable Application” means that any compensation, bonus, or benefits program funded by or materially informed by Use of the Software is available on substantially similar terms to similarly situated Employees based on role, level, tenure, or objective performance criteria, and is not limited to executives or a narrow class of Employees.
+3.5 Research Sharing. You may publish methods and aggregate statistics. You must not publish Artifacts or parameter sets that would reasonably enable a prohibited user to reproduce the Software’s performance.
 
-“FTE Headcount” means the average full-time-equivalent headcount of Employees and Contractors performing Bona Fide Services over the ninety calendar days ending on the relevant measurement date. Calculate FTE by total paid hours divided by forty per week, rounded to the nearest tenth.
+4. Employment and Pay
 
-“Sham Employment” means listing persons who did not perform Bona Fide Services during the ninety-day lookback solely to inflate FTE Headcount. Sham Employment does not count toward FTE Headcount.
+4.1 Payroll Allowed. Organizations may use the Software to fund or inform payroll and benefits for bona fide services.
 
-“Org Caps” means the following values, which auto-update with the Wealth Caps and scale with FTE Headcount:
-(a) Org Net Assets Cap: two times FTE Headcount multiplied by the Net Worth Cap; and
-(b) Org Gross Receipts Cap: two times FTE Headcount multiplied by the Income Cap.
+4.2 Equitable Application. If the Software funds or informs pay, the Organization must apply the benefits of the Software equitably among employees. The Organization must disclose executive pay in bands no wider than 25,000 in the Attestation or in a linked report.
 
-“Measurement Dates” means the date of first Use, each yearly anniversary of first Use, and each date on which the Organization makes compensation or benefits payments funded by or materially informed by Use of the Software.
+5. Consolidation and Anti-Fragmentation
 
-“Common Control Group” means two or more Benevolent Organizations that share more than fifty percent of directors or officers, or that are controlled by the same person or entity.
+5.1 Consolidation. If an Organization operates a group of related entities under common control, it must consolidate those entities for purposes of FTE Headcount, Caps, and transparency.
 
-“Prohibited Entity” means any for-profit business and its Affiliates; and any entity acting on behalf of, at the direction of, or for the benefit of a for-profit business. Examples include financial institutions and investment managers; these examples are illustrative only. A Benevolent Organization is not a Prohibited Entity.
+5.2 Anti-avoidance. Arrangements that exist primarily to evade Caps or reporting requirements violate this license.
 
-“Prohibited Person” means any individual whose Net Worth is at or above the Net Worth Cap or whose Income is at or above the Income Cap for either of the two most recent tax years.
+6. Transparency and Attestation
 
-“Fiscal Year” means the Organization’s accounting year as set in its governing documents or applicable law.
+6.1 Single Public Location. The Attestation is the controlling Public Location for required reporting. A repository may include a “PBE-L compliant” badge that links to the Attestation.
 
-“Public Location” means a publicly accessible webpage controlled by the Organization that does not require payment, registration, or tracking beyond standard web server logs.
+6.2 What to publish. For each Transparency Year, publish at the Public Location:
+(a) the Transparency Year;
+(b) for Organizations: FTE window, computed FTE Headcount, and the Org Caps calculations for the year;
+(c) either the required transparency content inline or stable links to existing filings or pages that contain it; tabular items may be in an attached CSV that follows the schema in this repository; and
+(d) if using the small-organization safe harbor, the statement and counts required by that safe harbor.
 
-“Open Format” means CSV or JSON for tabular data; other items may be provided in PDF. CSV or JSON must include clear column names and, if needed, a short data dictionary.
+6.3 Deadline. Publish by the earlier of 120 days after fiscal year end or the deadline that applies to the Organization’s largest mandatory annual public filing in its home jurisdiction.
 
-“Transparency Report” means the public report described in Section 5.6, published at a Public Location.
+6.4 Stability. If you use links, keep them stable and accessible for at least seven years.
 
-“Reporting Deadline” means the earlier of: one hundred twenty days after the end of each Fiscal Year; or any earlier deadline required by law for the Organization’s annual reports.
+6.5 Contact and Venue. The Attestation may include a Compliance Contact. If the Attestation specifies a different U.S. state and county for Venue, that override applies; otherwise Venue is as defined in Section 1.15.
 
-“Executive” means an employee or contractor in the top five compensated roles during a Fiscal Year, ranked by total compensation.
+7. Verification
 
-“Band midpoint” means the arithmetic mean of a band’s lower and upper bounds.
+7.1 Good-faith requests. Licensor or any user with a good-faith concern may request that you verify eligibility or reporting. You must respond within 30 days with a brief statement and links or redacted documents sufficient to confirm compliance.
 
-“Prohibited Benefit” means any distribution of profits or assets to investors or owners other than lawful payroll and benefits; any payment above Reasonable Compensation that is not made under a Compensation Plan; or any transfer made with principal purpose of sharing Proceeds of Use with a Prohibited Person who is not an Employee or Contractor.
+7.2 Privacy. Do not disclose personal financial account numbers or sensitive personal data. Redactions are allowed so long as figures and sources remain verifiable.
 
-3. License Grant
-Subject to the conditions and restrictions below, the Licensor grants You a worldwide, non-exclusive, non-transferable, royalty-free license to Use the Software. No trademark rights are granted.
+8. Termination and Cure
 
-4. Who May Use
-4.1 Permitted Individual Users. A Permitted Individual User may Use the Software, including for Financial Gain, for that person’s own accounts. A Permitted Individual User may not Use the Software for any account, pool, project, or vehicle owned by another person or entity, whether by power of attorney, service agreement, or similar arrangement.
+8.1 Automatic termination. This license terminates automatically if you breach Section 3 or 6.
 
-4.2 Benevolent Organizations. A Benevolent Organization may Use the Software, including for Financial Gain or other Material Benefit, solely for Mission-Related Purposes, provided that on each Measurement Date it remains below both Org Caps. Eligibility under this Section requires timely publication of the Transparency Report under Section 5.6. A Benevolent Organization may provide access to the Software as a service to its members or beneficiaries only if each recipient is a natural person or a Benevolent Organization, not a for-profit entity, and accepts this license. The Organization may compensate its Employees and Contractors for Bona Fide Services in any lawful form of compensation, including salary, wages, customary bonuses, and benefits.
+8.2 Cure period. If the breach is curable, the license reinstates automatically on the thirty-first day after you fully cure and publish a corrected Attestation.
 
-4.3 Everyone else is prohibited. No Prohibited Person or Prohibited Entity may Use the Software, nor may anyone Use the Software for the benefit of a Prohibited Person or Prohibited Entity. For the avoidance of doubt, payroll and benefits paid to Employees and Contractors do not by themselves constitute Use for the benefit of a Prohibited Person. Distributions to investors, outside capital providers, or any person who is not an Employee or Contractor remain prohibited.
+8.3 No use after termination. After termination you must stop using the Software, Outputs, and Artifacts and must not rediscover or reacquire access through intermediaries.
 
-5. Additional Use Conditions
-5.1 No service bureau for others. You must not provide the Software or its Outputs or Artifacts as a service to any third party unless that third party is eligible under Section 4 and accepts this license.
+9. Warranty and Liability
 
-5.2 No circumvention. You must not split, proxy, or structure any Use to evade the eligibility limits in this license.
+9.1 Disclaimer. The Software is provided “as is” without warranties or conditions of any kind.
 
-5.3 Outputs. You may keep and use Outputs or Artifacts You lawfully generate. You must not sell, license, or transfer Outputs or Artifacts to any Prohibited Person or Prohibited Entity. Payments of compensation or benefits to Employees or Contractors that are not themselves a sale or license of Outputs or Artifacts are not transfers for purposes of this Section.
+9.2 Limitation. To the extent allowed by law, Licensor is not liable for any indirect, special, incidental, consequential, or punitive damages; and Licensor’s total liability is capped at one hundred dollars.
 
-5.4 Compensation structure. A Benevolent Organization may compensate Employees and Contractors in any lawful form of compensation, including salary, wages, customary bonuses, and benefits. Compensation must be paid from Organization accounts; must not grant any right or claim to Organization equity or assets; and must not be assigned, sold, or pledged to any third party. Using a Neutral Infrastructure Provider does not create a Prohibited Benefit. Any payment that routes Proceeds of Use or Organization funds to any investor, outside capital provider, or other third party is a Prohibited Benefit.
+10. Patents
 
-5.5 Equitable application of benefits. If a Benevolent Organization Uses the Software to inform or fund payroll, bonuses, or benefits, including where Material Benefit is cost savings or efficiency gains, it must apply the benefits of the Software with Equitable Application. Eligibility criteria must be role-related, objective, and non-discriminatory. The Organization must document the Compensation Plan and criteria and make them available to the Licensor on request under Section 10.
+10.1 Patent grant. If you comply with this license, Licensor grants you a non-exclusive, worldwide, royalty-free patent license to make, use, and distribute the Software that Licensor could license to you.
 
-5.6 Financial transparency; publication required. A Benevolent Organization may Use the Software only if it publishes a Transparency Report at a Public Location by each Reporting Deadline and keeps the most recent seven years of Transparency Reports publicly available.
-(a) Contents. Each Transparency Report must include, for the Fiscal Year covered:
-  (1) the Organization’s total Net Assets and total Gross Receipts, stated in the same currency used for its financial statements, and the values used to test the Org Caps under this license;
-  (2) the Organization’s FTE Headcount calculation under this license, including the lookback window dates and the total paid hours used in the calculation;
-  (3) a statement that all Use of the Software was for Mission-Related Purposes and that no distributions were made to investors or outside capital providers;
-  (4) a description of the Compensation Plan then in effect and the objective criteria used to apply benefits funded by or materially informed by Use of the Software;
-  (5) Equitable Application metrics: the number of Employees eligible for variable compensation programs funded by or materially informed by Use of the Software, including where Material Benefit is cost savings or efficiency gains; the number who received payments under those programs; and a summary by role family showing eligibility criteria;
-  (6) compensation bands for Executives stated as total annual compensation, with the count of Executives in each band. Bands must be contiguous, non-overlapping, of equal width within the report, and no wider than the greater of USD 50,000 or 15 percent of the band midpoint (or equivalent in local currency). Show the lower and upper bound of each band. If the spread between the lowest and highest Executive total compensation in the Fiscal Year exceeds the chosen band width, at least ceil(spread ÷ band width) bands must be reported;
-  (7) any audited financial statements or, if none exist, year-end statements of activities and financial position; and
-  (8) the Public Location URL where prior Transparency Reports are archived.
-(b) Format. Items (1), (2), (5), and (6) must be provided in an Open Format. Other items may be provided in Open Format or PDF.
-(c) Privacy and safety. A Transparency Report must not disclose personal identifying information of Employees or beneficiaries. Names of individuals need not be disclosed. Payments to entities must disclose the legal name of the entity.
-(d) Notice. The Organization must include the Public Location URL for its Transparency Report in its annual attestation under Section 7 and must notify the Licensor if the URL changes.
-(e) Legal conflicts. If public disclosure of specific line items is prohibited by applicable law, the Organization must publish all non-prohibited items and identify the withheld items and the law that prohibits disclosure. Items withheld by law remain subject to private verification under Section 10. If applicable law prohibits publication of all items required by this Section, the Organization is not eligible to Use the Software.
-(f) Small-organization safe harbor. If, on the Reporting Deadline, the Organization has FTE Headcount of five or fewer and both its Net Assets and its Gross Receipts are less than twenty five percent of the applicable Org Caps, it may satisfy this Section by publishing items (1) through (4) and a brief statement of how Equitable Application was applied during the year. Item (6) is not required unless there are two or more Executives.
-(g) Existing filings shortcut. An Organization that already publishes any of the following may satisfy this Section by publishing a short supplement in Open Format that provides the items not present in the filing: the FTE Headcount calculation, the Org Caps test, the Equitable Application metrics, and the Executive compensation bands required by item (6). Qualifying filings include a U.S. IRS Form 990 with schedules, a U.K. Charity Commission annual return, a Canada CRA T3010, an Australia ACNC AIS, a New Zealand Charities Services annual return, or audited financial statements published under applicable law. This list is illustrative, not exhaustive.
-(h) Donor concentration screen. The Transparency Report must disclose the percentage of Gross Receipts coming from the single largest funding source during the Fiscal Year, rounded to the nearest five percent, and must state yes or no whether any funding source required approval rights over Use of the Software or its Outputs or Artifacts. If the largest source exceeded fifty percent and had such approval rights, the Organization is not eligible under this license.
+10.2 Patent retaliation. If you make any claim that the Software infringes a patent, your license under this license ends immediately.
 
-5.7 Recordkeeping. A Benevolent Organization must maintain books and records sufficient to determine compliance with the Org Caps and Sections 5.4 and 5.5 for at least four years after each Measurement Date. On written request under Section 10, the Organization must provide records reasonably necessary to verify compliance.
+11. Marks and Badges
 
-5.8 Reasonable access controls. If an Organization provides access to the Software or its Outputs or Artifacts to members or beneficiaries, it must maintain reasonable technical and contractual measures to ensure recipients are either Permitted Individual Users or Benevolent Organizations. Examples include an annual click-through eligibility attestation; role-based access for accounts; and rate-limits that prevent bulk export of Outputs or Artifacts.
+11.1 Marks. “Public Benefit Equity License”, “PBE-L”, and the PBE-L badge are marks of the Licensor. You may use the names and badge to refer to the unmodified license or to indicate that your repository maintains a current Attestation. Do not use the marks in a way that suggests a modified license is PBE-L.
 
-5.9 No replication or enablement for Prohibited parties. You must not publicly post or otherwise provide Outputs or Artifacts, implementation services, or systematic “playbooks” derived primarily from the Software that enable a Prohibited Person or Prohibited Entity to substantially reproduce the Software’s functionality or to systematically apply its Outputs or Artifacts. Publishing academic research, aggregate performance statistics, benchmarks, or high-level methodological discussion without actionable parameters or proprietary artifacts is not a violation of this Section.
+11.2 Badge link. If you display the PBE-L compliant badge, the link target must be the Attestation file in your repository.
 
-5.10 Consolidation and measurement. For Org Caps and Transparency Report tests, a Common Control Group must report on a combined basis using consolidated Net Assets, Gross Receipts, and FTE Headcount. Internal transfers within the group are eliminated on consolidation. For Org Caps, Net Assets are measured as the arithmetic mean of month-end Net Assets over the Fiscal Year; Gross Receipts are measured for the full Fiscal Year. Temporary transfers within sixty days before or after a Measurement Date that reverse within that period are disregarded.
+12. Attribution
 
-5.11 Public compliance badge. An Organization may display a link to its Transparency Report labeled “PBE-L compliant” at the Public Location. Displaying the badge creates no additional obligations and serves only to indicate where reports can be found.
+12.1 Preserve notices. Keep copyright notices and this license text in copies of the Software and significant portions.
 
-6. Redistribution and Modification
-6.1 Redistribution. You may redistribute the Software, with or without modifications, only under this license. You must include a copy of this license and a notice that identifies the Licensor and any copyright holders.
-6.2 Modifications. If You modify the Software and distribute Your modifications, You must clearly mark changes and license the whole of Your modified work only under this license.
-6.3 No sublicensing. You may not offer or impose terms on downstream recipients that alter or conflict with this license.
+13. Versioning and Changes
 
-7. Eligibility Certification
-7.1 Attestation. Before first Use and each year thereafter by the Reporting Deadline, You must make a written or electronic attestation that You are eligible under Section 4 and have complied with Sections 5.4, 5.5, and 5.6, and provide the Public Location URL of Your current Transparency Report. Nothing in this license requires public disclosure by individuals. The Licensor will provide an attestation template. Completing that template in good faith satisfies the form of this Section.
+13.1 Version. This license is versioned. If Licensor publishes a new version, you may continue under this version or adopt the new one.
 
-7.2 Evidence. Licensor may request reasonable documentation that substantiates Your attestation, such as a signed statement from a licensed accountant or attorney and summary ledgers showing total Net Assets, total Gross Receipts, and FTE Headcount calculations. You are not required to disclose full tax returns or individual pay records unless ordered by a court in a dispute under this license. If You fail to provide requested documentation within thirty days after written request, Your rights under this license terminate automatically at day thirty one.
+13.2 No side agreements. Terms outside this license do not change the permissions and conditions in this license.
 
-7.3 Organization attestation. The attestation for a Benevolent Organization must state that on each Measurement Date: (1) FTE Headcount was calculated per this license and did not include Sham Employment; (2) the Organization’s Net Assets and Gross Receipts were below the Org Caps derived from that FTE Headcount; (3) all compensation was for Bona Fide Services and within Reasonable Compensation for the role; (4) any variable compensation funded by or materially informed by Use of the Software was made under a Compensation Plan in effect for the period and applied with Equitable Application; and (5) no distributions were made to investors or outside capital providers.
-
-7.4 Failure to attest. If You fail to provide an attestation within thirty days of request, Your rights under this license terminate automatically at day thirty one.
-
-7.5 Publication cure. If a Benevolent Organization fails to publish a Transparency Report by the Reporting Deadline, its rights under this license terminate automatically at day thirty one after the Reporting Deadline unless, within that thirty-day period, it publishes the Transparency Report and updates its attestation under Section 7.1. For the first Fiscal Year after the Organization’s first Use of the Software, the cure period in this Section is sixty days.
-
-7.6 Good faith corrections. Minor errors or omissions in a Transparency Report that do not affect the Org Caps test or conceal compensation may be corrected within fourteen days after written notice without triggering termination.
-
-8. Patents
-8.1 Patent grant. If You are a contributor, You grant a perpetual, worldwide, non-exclusive, royalty-free patent license to make, use, sell, offer to sell, import, and otherwise transfer the Software, limited to patent claims You can license that are necessarily infringed by Your contribution alone or by combination of Your contribution with the unmodified Software.
-8.2 Patent retaliation. If You or Your Affiliate make a patent claim against any party alleging that the Software infringes a patent, Your license under this license terminates immediately.
-
-9. Term and Termination
-9.1 Term. This license is effective on receipt of the Software and lasts until terminated.
-9.2 Automatic termination. Your rights terminate automatically if You breach Sections 4, 5, 6, 7, or 8.
-9.3 Cure. If You breach a curable obligation, Your license may be reinstated automatically if You cure the breach within thirty days of notice from Licensor.
-9.4 Effect of termination. Upon termination, You must stop Using the Software and destroy copies in Your possession or control. Termination does not affect rights already granted to recipients of Your compliant distributions.
-
-10. Compliance and Audit
-10.1 Audit scope. Licensor may reasonably audit Your compliance with Sections 4, 5, 6, and 7 on thirty days’ written notice. Audits may request the Compensation Plan, role descriptions, FTE Headcount calculations for the ninety-day lookback windows, and summary ledgers showing total compensation by role family and period. Individual pay records are not required unless ordered by a court or reasonably necessary to verify compliance with Sections 5.4 or 5.5 or the FTE Headcount calculation.
-10.2 Confidentiality. Licensor must treat all nonpublic information received under this Section as confidential; use it solely to verify compliance; disclose it only to its counsel, independent auditors, or as required by law or court order; and upon request return or destroy it after the audit. Licensor may publish aggregated statistics that do not identify any Organization or individual.
-
-11. Disclaimer of Warranty
-The Software is provided “as is”. To the maximum extent allowed by law, Licensor disclaims all warranties, whether express, implied, or statutory, including warranties of merchantability, fitness for a particular purpose, title, and non-infringement.
-
-12. Limitation of Liability
-To the maximum extent allowed by law, Licensor is not liable for any indirect, incidental, special, consequential, or exemplary damages, or for lost profits, trading losses, or loss of data, even if advised of the possibility. Licensor’s total liability for all claims relating to the Software is limited to one hundred United States dollars.
-
-13. Export and Sanctions
-You must comply with all applicable export control and sanctions laws. If any law prohibits Use by You, this license does not grant You any right to Use.
-
-14. General
-14.1 Entire agreement. This license is the entire agreement between You and Licensor about the Software.
-14.2 Severability. If any provision is unenforceable, the remainder remains in effect.
-14.3 No waiver. A waiver must be in writing; one waiver is not a waiver of any other breach.
-14.4 Governing law and venue. Unless the Licensor specifies otherwise in the NOTICE file, this license is governed by the law of the State of Oregon, USA, excluding its conflict-of-law rules, and exclusive venue lies in state or federal courts located in Multnomah County, Oregon. The Licensor may designate a different U.S. state law and venue in the NOTICE file for future disputes. A change of governing law or venue in the NOTICE file applies only to disputes arising from events after the date the change is first published.
-
-15. Versioning
-The Licensor may publish new versions of this license. Unless stated otherwise, You may choose to continue under this version or adopt a later version.
-
-16. Auto-Update of Caps
-The Wealth Caps and Org Caps update automatically as the underlying sources publish new values. If an updated source value is not available by June 30 of a given year, apply the prior value adjusted by the annual percentage change in CPI-U for the person’s or entity’s tax residence; if unavailable, use U.S. CPI-U.
+Governing Law and Venue: as defined in Section 1.15.
