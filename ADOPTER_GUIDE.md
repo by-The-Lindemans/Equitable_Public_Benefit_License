@@ -10,7 +10,6 @@
    - Org Gross Receipts Cap = 2 x FTE Headcount x Income Cap
    - Wealth Caps: use the sources defined in the license; update when the sources update
 5) Add the single License badge from **[BADGE.md](./BADGE.md)** at the top of your README.  
-6) Do not use a “compliant” badge; compliance is shown by filing your Attestation by email.  
 
 ## Annual checklist
 - Recompute FTE and Org Caps; update Attestation answers; email the Attestation to **attest@lndmn.com** by the Reporting Deadline.  
