@@ -25,7 +25,7 @@ Explain how benefits from the Software are applied equitably among employees if 
 FTE window: average paid hours over prior 90 days divided by 40  
 FTE headcount: n.n
 
-Wealth Caps sources:
+Wealth Caps sources (see the [license](../LICENSE.txt)):
 - Net Worth Cap: top 10 percent household net worth threshold
 - Income Cap: min(top 10 percent household income threshold, SEC accredited investor household income threshold)
 
