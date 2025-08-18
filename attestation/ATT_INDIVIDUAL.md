@@ -1,5 +1,7 @@
 # PBE-L Attestation (Individual)
 
+Complete and upload at https://YOUR-PORTAL/attest; do not commit completed copies to this repo.
+
 Name or pseudonym: REPLACE-WITH-NAME  
 Transparency Year: 2025
 
