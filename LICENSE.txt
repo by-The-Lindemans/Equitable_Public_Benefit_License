@@ -1,4 +1,4 @@
-Equitable Public Benefit License (EPBL) v0.2.0-rc2
+Equitable Public Benefit License (EPBL) v0.2.0-rc3
 
 Preamble
 This license is for software that advances broad public benefit. It permits use by qualifying individuals and benevolent organizations that operate within simple, verifiable limits; it blocks capture by for-profit and ultra-wealthy actors. Compliance is kept simple by filing a single annual Attestation by email.
@@ -42,6 +42,8 @@ This license is for software that advances broad public benefit. It permits use 
 1.18 Venue means California, USA; state courts in San Francisco County and the United States District Court for the Northern District of California.
 
 1.19 Compliance Contact means an email address the Licensee may include in the Attestation to receive compliance questions.
+
+1.20 Public Reporting Channel means the public issue form titled “Report a license violation” in the canonical EPBL repository on GitHub, or any successor page the Licensor identifies in that repository.
 
 2. Grant
 
@@ -89,9 +91,13 @@ This license is for software that advances broad public benefit. It permits use 
 
 6.6 Who files. The duty to file an Attestation rests on each Licensee that uses the Software. Repository maintainers, hosting providers, and contributors are not required to collect, forward, or store Attestations. Including the license, the badge, and the attestation templates satisfies their distribution duties under this license.
 
+6.7 Public reporting channel. Anyone may submit alleged violations or misuse through the Public Reporting Channel. Submissions there are public by default. Do not include account numbers, sensitive personal data, or confidential business information in a public submission.
+
+6.8 Public reports are not Attestations or legal notice. A submission to the Public Reporting Channel does not satisfy any filing duty under this license and is not legal notice to any party. Licensees must file Attestations by email to the Attestation Inbox. Formal notices or verification requests under Section 7.1 must be sent privately.
+
 7. Verification
 
-7.1 Good-faith requests. Licensor, or a third party designated by Licensor, may request verification no more than once per Transparency Year absent credible evidence of non-compliance. Requests must identify the provision at issue and the Transparency Year. Licensee must respond within 30 days with a brief statement and links or redacted documents sufficient to confirm compliance.
+7.1 Good-faith requests. Licensor, or a third party designated by Licensor, may request verification no more than once per Transparency Year absent credible evidence of non-compliance. Requests must identify the provision at issue and the Transparency Year and must be sent privately. Licensee must respond within 30 days with a brief statement and links or redacted documents sufficient to confirm compliance.
 
 8. Termination and Cure
 
