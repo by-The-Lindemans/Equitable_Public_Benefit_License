@@ -1,0 +1,68 @@
+# .github/ISSUE_TEMPLATE/question.yml
+name: Ask a question
+description: General questions about EPBL or this repository (not for violations, security, or legal notices)
+title: "[Question] <short summary>"
+labels: ["question"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reaching out. This form is for general questions. 
+        Do not report alleged license violations here; use **"Report a license violation"**. 
+        Do not report security issues here; follow the **Security policy** link on the New issue page.
+
+  - type: checkboxes
+    id: precheck
+    attributes:
+      label: First, please confirm
+      options:
+        - label: I have read the README.
+          required: true
+        - label: I searched open and closed issues.
+          required: true
+        - label: I skimmed the license text (LICENSE.txt) and the Adopter Guide.
+          required: true
+
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic
+      options:
+        - Adopting EPBL in our repo
+        - How to file the Attestation
+        - Badges and branding
+        - Eligibility caps (FTE, Net Worth Cap, Income Cap)
+        - Marks and naming
+        - Governance law/venue text
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: related_repo
+    attributes:
+      label: Related repository or project (optional)
+      placeholder: "https://github.com/org/repo or N/A"
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: Be specific and include links or short quotes if helpful.
+      placeholder: "What do you need to know?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: tried
+    attributes:
+      label: What have you tried?
+      description: Tell us what you looked at or attempted; this prevents back-and-forth.
+      placeholder: "Docs or lines you checked; commands or steps you tried"
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact email (optional)
+      placeholder: "you@example.org"
