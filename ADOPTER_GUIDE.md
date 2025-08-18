@@ -10,7 +10,7 @@ This guide is the authoritative instructions for adopting PBE-L. The README link
 
 ## For users of PBE-L software (Licensees)
 1) Compute your eligibility caps each year:  
-   - FTE Headcount = total paid hours over the last 90 days ÷ 40 (round to the nearest tenth)  
+   - - FTE Headcount = total paid hours during the 13-week window ending on the Measurement Date ÷ 520; round to the nearest whole number (half-up).
    - Org Net Assets Cap = 2 x FTE Headcount x Net Worth Cap  
    - Org Gross Receipts Cap = 2 x FTE Headcount x Income Cap  
    - Wealth Caps: use the sources defined in the license; update when those sources update; the Measurement Date is the last day of your Transparency Year (see the license)  
