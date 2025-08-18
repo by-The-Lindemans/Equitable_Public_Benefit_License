@@ -1,4 +1,4 @@
-# Equitable Public Benefit License v1.0.0 — reference repo
+# Equitable Public Benefit License v1.0.0 reference repo
 
 This repository publishes the canonical text of EPBL and a small compliance kit for adopters. EPBL keeps overhead low for good-faith nonprofits and co-ops while preventing capture by for-profit and ultra-wealthy actors.
 
