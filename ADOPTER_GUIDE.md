@@ -1,4 +1,4 @@
-# Adopter Guide - EPBL v0.2.0-rc1
+# Adopter Guide - EPBL v1.0.0
 
 This guide is the authoritative instructions for adopting EPBL. The README links here to avoid duplication.
 
