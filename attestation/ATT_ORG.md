@@ -1,15 +1,17 @@
 # PBE-L Attestation (Organization)
 
+Complete and upload at https://YOUR-PORTAL/attest; do not commit completed copies to this repo.
+
 Entity: REPLACE-WITH-ORG-NAME  
 Transparency Year: 2025  
 Venue override (optional): STATE, USA; COUNTY courts  
 Compliance contact (optional): compliance@your-domain.example
 
-## Transparency Report (link or inline)
+## Transparency Report (inline or link to existing filings)
 Public page: https://your-domain.example/transparency/this-project  
 Existing filings used (if any): Form 990 for 2025 at https://...
 
-### Required tabular items (inline, CSV, or link)
+### Required tabular items (inline or linked)
 - Executive pay bands by total compensation (bands no wider than 25,000):
   - 0-25,000: n
   - 25,001-50,000: n
@@ -20,11 +22,11 @@ Existing filings used (if any): Form 990 for 2025 at https://...
 ### Equitable Application statement
 Explain how benefits from the Software are applied equitably among employees if the Software funds or informs pay.
 
-## Eligibility caps and FTE (computed annually)
+## Eligibility caps and FTE
 FTE window: average paid hours over prior 90 days divided by 40  
 FTE headcount: n.n
 
-Wealth Caps (auto-updating per license sources):
+Wealth Caps sources:
 - Net Worth Cap: top 10 percent household net worth threshold
 - Income Cap: min(top 10 percent household income threshold, SEC accredited investor household income threshold)
 
