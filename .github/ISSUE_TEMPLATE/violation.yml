@@ -1,0 +1,68 @@
+name: Report a license violation
+description: Report alleged misuse or breach of EPBL terms so we can triage quickly
+title: "[Violation] <short summary>"
+labels: ["compliance", "alleged-violation"]
+assignees: []  # or put a team or username here
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping protect the commons. Provide concise facts and links; do not include sensitive personal data.
+  - type: dropdown
+    id: reporter_role
+    attributes:
+      label: Reporter role
+      options: ["Licensee", "Project maintainer", "Third party", "Other"]
+    validations:
+      required: true
+  - type: input
+    id: entity
+    attributes:
+      label: Alleged violator name
+      placeholder: "Entity or individual; include website or repo link"
+    validations:
+      required: true
+  - type: checkboxes
+    id: violation_types
+    attributes:
+      label: What type of violation are you reporting?
+      options:
+        - label: Prohibited user type (section 3.3)
+        - label: Above caps (sections 1.11 to 1.15; 3.1 to 3.2)
+        - label: Brokerage of prohibited use (section 3.4)
+        - label: Research sharing that enables prohibited use (section 3.5)
+        - label: Transparency or attestation failure (section 6)
+        - label: Marks or badge misuse (section 11)
+        - label: Other
+    validations:
+      required: true
+  - type: textarea
+    id: facts
+    attributes:
+      label: Facts and evidence
+      description: Links, screenshots, filings, on-chain data, market activity, logs
+      placeholder: "Short narrative with URLs"
+    validations:
+      required: true
+  - type: input
+    id: timeframe
+    attributes:
+      label: Timeframe
+      placeholder: "When it occurred and current status"
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: Urgency
+      options: ["Critical", "High", "Normal", "Low"]
+    validations:
+      required: true
+  - type: textarea
+    id: remedy
+    attributes:
+      label: Requested outcome
+      placeholder: "What resolution you seek; takedown; verification; guidance"
+  - type: input
+    id: contact
+    attributes:
+      label: Contact email for follow-up
+      placeholder: "Optional"
