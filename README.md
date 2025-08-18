@@ -15,7 +15,7 @@ This repository publishes the canonical text of PBE-L and a small compliance kit
 ## Using this software (for users of a PBE-L project)
 Each year, complete the appropriate Attestation (organizations use `ATT_ORG.md`; individuals use `ATT_INDIVIDUAL.md`) and email it to **attest@lndmn.com** by the Reporting Deadline in the license.
 
-Details live here: see [Adopter Guide](./ADOPTER_GUIDE.md) for the Reporting Deadline, what to include, and annual checklists.
+See [Adopter Guide](./ADOPTER_GUIDE.md) for the Reporting Deadline, what to include, and annual checklists.
 
 ## Changes and corrections
 - We accept errata; we track them in `CHANGELOG.md`.
