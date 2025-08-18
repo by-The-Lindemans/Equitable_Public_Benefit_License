@@ -22,8 +22,8 @@ Existing filings used (if any): Form 990 for 2025 at https://...
 Explain how benefits from the Software are applied equitably among employees if the Software funds or informs pay.
 
 ## Eligibility caps and FTE
-FTE window: average paid hours over prior 90 days divided by 40  
-FTE headcount: n.n
+FTE window: the 13 weeks (91 days) ending on the Measurement Date
+FTE Headcount: compute as total paid hours in that 13-week window ÷ 520; round to a whole number (half-up): n
 
 Wealth Caps sources (see the [license](../LICENSE.txt)):
 - Net Worth Cap: top 10 percent household net worth threshold
