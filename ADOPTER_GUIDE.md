@@ -6,7 +6,9 @@ This guide is the authoritative instructions for adopting PBE-L. The README link
 1) Copy [LICENSE.txt](./LICENSE.txt) unchanged to the repo root.
 2) Keep both templates in [attestation/](./attestation/); do not commit completed attestations.
 3) Add the License badge from [BADGE.md](./BADGE.md) to your [README.md](./README.md).
-4) Point users to the “For users” section below; maintainers do not collect or store attestations.
+4) Point users to the [For users of PBE-L software (Licensees)]([#for-users-of-pbe-l-software-licensees](https://github.com/ORG/REPO/blob/main/ADOPTER_GUIDE.md#for-users-of-pbe-l-software-licensees
+) section below; maintainers do not collect or store attestations.
+
 
 ## For users of PBE-L software (Licensees)
 1) Compute your eligibility caps each year:  
