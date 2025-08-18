@@ -12,7 +12,7 @@ This repository publishes the canonical text of PBE-L and a small compliance kit
 ## Getting started (for repository maintainers)
 1) Copy [LICENSE.txt](./LICENSE.txt) unchanged to the repo root.
 2) Keep both templates in [attestation/](./attestation/); do not commit completed attestations.
-3) Add the License badge from [BADGE.md](./BADGE.md) to your [README.md](./README.md).
+3) Add the License badge from [BADGE.md](./BADGE.md) to your README.md.
 
 ## Using this software (for users of a PBE-L project)
 Each year, each user must complete the appropriate Attestation ([ATT_ORG.md](./attestation/ATT_ORG.md) or [ATT_INDIVIDUAL.md](./attestation/ATT_INDIVIDUAL.md)) and email it to attest@lndmn.com by the Reporting Deadline in the [license](./LICENSE.txt).
