@@ -1,4 +1,4 @@
-Public Benefit Equity License (PBE-L) v0.1rc005
+Public Benefit Equity License (PBE-L) v1.0
 
 Preamble
 This license is for software that advances broad public benefit. It permits use by qualifying individuals and benevolent organizations that operate within simple, verifiable limits; it blocks capture by for-profit and ultra-wealthy actors. Compliance is kept simple by filing a single annual Attestation by email.
@@ -17,25 +17,31 @@ This license is for software that advances broad public benefit. It permits use 
 
 1.6 Benevolent Organization means an Organization that is not for-profit; has a primary public benefit mission stated in its charter or bylaws; applies benefits from the Software equitably among employees if it uses the Software to fund or inform pay; and is not subject to Control by Outside Capital.
 
-1.7 Control and Outside Capital. Control means the practical ability to direct an Organization’s policies or use of the Software, whether through equity, debt, contracts, or board authority. Outside Capital means investors, lenders, or principals whose primary objective is financial return rather than the Organization’s public benefit mission.
+1.7 Control means, directly or indirectly, (a) ownership of more than 50% of voting interests; or (b) contractual or other practical ability to direct management and policies. Entities under common Control are under common control. Outside Capital means investors or lenders whose primary objective is financial return over the Organization’s stated public-benefit mission.
 
 1.8 Transparency Year means the Organization’s fiscal year; for Individuals, the calendar year.
 
-1.9 Net Worth Cap means the top ten percent household net worth threshold as reported by the Licensee’s national statistics office or by the U.S. Survey of Consumer Finances.
+1.9 Household means all persons who share a primary residence and pool a majority of living expenses.
 
-1.10 Income Cap means the lower of the top ten percent household income threshold and the SEC accredited investor household income threshold. Use current published figures; update when sources update.
+1.10 Measurement Date means the last day of the Transparency Year.
 
-1.11 FTE Headcount means the average of paid hours over the prior 90 days divided by 40; include employees and contractors performing bona fide services.
+1.11 Net Worth Cap means the top ten percent household net worth threshold published for the Licensee’s country of residence, measured as of the Measurement Date. If multiple official sources exist, use in order: (i) the national statistics office; (ii) the most recent U.S. Survey of Consumer Finances, adjusted by PPP to the Licensee’s country; (iii) if neither is available, the OECD wealth distribution dataset.
 
-1.12 Org Caps. Org Net Assets Cap equals 2 x FTE Headcount x Net Worth Cap. Org Gross Receipts Cap equals 2 x FTE Headcount x Income Cap.
+1.12 Income Cap means the lower of (i) the top ten percent household income threshold and (ii) the SEC accredited investor household income threshold (household), each as of the Measurement Date. If the Licensee is outside the U.S., treat (ii) as a fixed U.S. dollar value and convert per Section 1.14.
 
-1.13 Attestation means the annual compliance statement completed on the PBE-L template for Organizations or Individuals and filed as described in Section 6.
+1.13 FTE Headcount means the average of paid hours over the 90 days ending on the Measurement Date divided by 40; count employees and contractors performing bona fide services.
 
-1.14 Attestation Inbox means the submission email address for Attestations: attest@lndmn.com.
+1.14 Currency. All thresholds and bands are expressed in U.S. dollars unless the Attestation states a local currency. If local currency is used, convert U.S.-dollar thresholds at the daily WM/Refinitiv 16:00 London rate on the Measurement Date and state the rate used.
 
-1.15 Venue means Oregon, USA; Multnomah County courts.
+1.15 Org Caps. Org Net Assets Cap equals 2 x FTE Headcount x Net Worth Cap. Org Gross Receipts Cap equals 2 x FTE Headcount x Income Cap.
 
-1.16 Compliance Contact means an email address the Licensee may include in the Attestation to receive compliance questions.
+1.16 Attestation means the annual compliance statement completed on the PBE-L template for Organizations or Individuals and filed as described in Section 6.
+
+1.17 Attestation Inbox means the submission email address for Attestations: attest@lndmn.com.
+
+1.18 Venue means Oregon, USA; Multnomah County courts.
+
+1.19 Compliance Contact means an email address the Licensee may include in the Attestation to receive compliance questions.
 
 2. Grant
 
@@ -45,7 +51,7 @@ This license is for software that advances broad public benefit. It permits use 
 
 3. Eligibility and Use Limits
 
-3.1 Allowed Individuals. An Individual may use the Software only if the Individual’s household wealth and income are at or below the Net Worth Cap and Income Cap.
+3.1 Allowed Individuals. An Individual may use the Software only if the Individual’s Household wealth and income are at or below the Net Worth Cap and Income Cap.
 
 3.2 Allowed Organizations. An Organization may use the Software only if it is a Benevolent Organization and, measured for the Transparency Year, both its net assets and gross receipts are at or below the Org Caps.
 
@@ -59,7 +65,7 @@ This license is for software that advances broad public benefit. It permits use 
 
 4.1 Payroll Allowed. Organizations may use the Software to fund or inform payroll and benefits for bona fide services.
 
-4.2 Equitable Application. If the Software funds or informs pay, the Organization must apply the benefits of the Software equitably among employees. The Organization must disclose executive pay in bands no wider than 25,000 in its transparency materials or in linked filings referenced in the Attestation.
+4.2 Equitable Application. If the Software funds or informs pay, the Organization must apply the benefits of the Software equitably among employees. The Organization must disclose executive pay in bands no wider than 25,000 (state the currency and year) in its transparency materials or in linked filings referenced in the Attestation.
 
 5. Consolidation and Anti-Fragmentation
 
@@ -71,11 +77,13 @@ This license is for software that advances broad public benefit. It permits use 
 
 6.1 Single filing channel. File the Attestation each Transparency Year by email to the Attestation Inbox at attest@lndmn.com. Keep a copy of the filed Attestation and any attachments.
 
+6.1.1 Submission and receipt. Attestations must be sent to attest@lndmn.com as PDF or Markdown attachments. An Attestation is deemed received on the earlier of (a) Licensor’s email acknowledgment, or (b) two business days after a message without a bounce is sent, as shown by the Licensee’s SMTP server logs. Licensees must retain evidence of sending and any acknowledgment.
+
 6.2 What to file. The Attestation must include: (a) the Transparency Year; (b) for Organizations, the FTE window, computed FTE Headcount, and the Org Caps calculations; (c) either the required transparency content inline or stable links to existing public filings or pages that contain it; and (d) if using the small-organization safe harbor, the required statement and counts. A Compliance Contact email may be included.
 
 6.3 Reporting Deadline. File by the earlier of 120 days after fiscal year end or the deadline that applies to the Licensee’s largest mandatory annual public filing in its home jurisdiction.
 
-6.4 Records. Preserve the filed Attestation and supporting materials for seven years and provide them on good-faith request under Section 7.
+6.4 Records. Preserve the filed Attestation and supporting materials for seven years and provide them on good-faith request under Section 7. Evidence of timely filing includes any of: Licensor’s acknowledgment; outbound server logs showing successful delivery without bounce; or a timestamped submission receipt if provided by Licensor.
 
 6.5 Privacy. Do not disclose personal financial account numbers or sensitive personal data. Redactions are allowed so long as figures and sources remain verifiable.
 
@@ -83,7 +91,7 @@ This license is for software that advances broad public benefit. It permits use 
 
 7. Verification
 
-7.1 Good-faith requests. Licensor or any user with a good-faith concern may request that you verify eligibility or reporting. You must respond within 30 days with a brief statement and links or redacted documents sufficient to confirm compliance.
+7.1 Good-faith requests. Licensor, or a third party designated by Licensor, may request verification no more than once per Transparency Year absent credible evidence of non-compliance. Requests must identify the provision at issue and the Transparency Year. Licensee must respond within 30 days with a brief statement and links or redacted documents sufficient to confirm compliance.
 
 8. Termination and Cure
 
@@ -120,5 +128,17 @@ This license is for software that advances broad public benefit. It permits use 
 13.1 Version. This license is versioned. If Licensor publishes a new version, you may continue under this version or adopt the new one.
 
 13.2 No side agreements. Terms outside this license do not change the permissions and conditions in this license.
+
+14. Boilerplate
+
+14.1 Severability. If any provision is unenforceable, the remainder remains in effect to the maximum extent permitted.
+
+14.2 No waiver. A failure to enforce any provision is not a waiver of future enforcement.
+
+14.3 Entire agreement. This license is the entire agreement on its subject matter.
+
+14.4 Assignment. You may not assign this license without Licensor’s prior written consent; Licensor may assign to a successor to substantially all related assets.
+
+14.5 Survival. Sections 5, 6.4, 6.5, 7, 8, 9, 10.2, 11, 12, and 14 survive termination.
 
 Governing Law and Venue: Oregon, USA; Multnomah County courts.
