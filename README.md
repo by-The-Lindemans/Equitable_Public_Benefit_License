@@ -20,7 +20,7 @@ Each year, each user must complete the appropriate Attestation ([ATT_ORG.md](./a
 See [Adopter Guide](./ADOPTER_GUIDE.md) for the Reporting Deadline, what to include, and annual checklists.
 
 ## Changes and corrections
-- We accept errata; we track them in [CHANGELOG.md](./CHANGELOG.md).
+- We track versions in the header of `LICENSE.txt` and with Git tags; for human-readable notes, see the repository Releases page. To report errata, open an **Erratum** issue using the template.
 - Policy proposals are not in scope for this repo. See [CONTRIBUTING.md](./CONTRIBUTING.md) for the process.
 
 ## Versioning
