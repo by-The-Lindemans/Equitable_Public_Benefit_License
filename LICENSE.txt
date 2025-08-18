@@ -1,4 +1,4 @@
-Public Benefit Equity License (PBE-L) v0.1rc006
+Public Benefit Equity License (PBE-L) v0.1rc007
 
 Preamble
 This license is for software that advances broad public benefit. It permits use by qualifying individuals and benevolent organizations that operate within simple, verifiable limits; it blocks capture by for-profit and ultra-wealthy actors. Compliance is kept simple by filing a single annual Attestation by email.
@@ -17,7 +17,7 @@ This license is for software that advances broad public benefit. It permits use 
 
 1.6 Benevolent Organization means an Organization that is not for-profit; has a primary public benefit mission stated in its charter or bylaws; applies benefits from the Software equitably among employees if it uses the Software to fund or inform pay; and is not subject to Control by Outside Capital.
 
-1.7 Control means, directly or indirectly, (a) ownership of more than 50% of voting interests; or (b) contractual or other practical ability to direct management and policies. Entities under common Control are under common control. Outside Capital means investors or lenders whose primary objective is financial return over the Organization’s stated public-benefit mission.
+1.7 Control and Outside Capital. Control means, directly or indirectly, (a) ownership of more than 50 percent of voting interests; or (b) contractual or other practical ability to direct management and policies. Entities under common Control are under common control. Outside Capital means any investor, lender, private owner, or similar capital provider whose primary objective is financial return ahead of the Organization’s public-benefit mission, including where return-seeking rights or covenants create practical ability to direct the Organization’s use of the Software.
 
 1.8 Transparency Year means the Organization’s fiscal year; for Individuals, the calendar year.
 
@@ -25,15 +25,15 @@ This license is for software that advances broad public benefit. It permits use 
 
 1.10 Measurement Date means the last day of the Transparency Year.
 
-1.11 Net Worth Cap means the top ten percent household net worth threshold published for the Licensee’s country of residence, measured as of the Measurement Date. If multiple official sources exist, use in order: (i) the national statistics office; (ii) the most recent U.S. Survey of Consumer Finances, adjusted by PPP to the Licensee’s country; (iii) if neither is available, the OECD wealth distribution dataset.
+1.11 Net Worth Cap means the top ten percent household net worth threshold published for the Licensee’s country of residence, measured as of the Measurement Date. If multiple official sources exist, use in order: (i) the national statistics office; (ii) the most recent U.S. Survey of Consumer Finances, adjusted by purchasing power parity (PPP) to the Licensee’s country; (iii) if neither is available, the OECD wealth distribution dataset.
 
 1.12 Income Cap means the lower of (i) the top ten percent household income threshold and (ii) the SEC accredited investor household income threshold (household), each as of the Measurement Date. If the Licensee is outside the U.S., treat (ii) as a fixed U.S. dollar value and convert per Section 1.14.
 
-1.13 FTE Headcount means the average of paid hours over the 90 days ending on the Measurement Date divided by 40; count employees and contractors performing bona fide services.
+1.13 FTE Headcount means the average number of full-time-equivalent workers over the 13 weeks (91 days) ending on the Measurement Date. Compute it as: FTE Headcount = total paid hours during that 13-week period ÷ 520. Include employees and contractors performing bona fide services (including paid time off); exclude unpaid volunteers. Round to the nearest whole number using half-up.
 
-1.14 Currency. All thresholds and bands are expressed in U.S. dollars unless the Attestation states a local currency. If local currency is used, convert U.S.-dollar thresholds at the daily WM/Refinitiv 16:00 London rate on the Measurement Date and state the rate used.
+1.14 Currency. All thresholds and bands are expressed in U.S. dollars unless the Attestation states a local currency. If local currency is used, convert U.S. dollar thresholds at the daily WM/Refinitiv 16:00 London rate on the Measurement Date and state the rate used.
 
-1.15 Org Caps. Org Net Assets Cap equals 2 x FTE Headcount x Net Worth Cap. Org Gross Receipts Cap equals 2 x FTE Headcount x Income Cap.
+1.15 Org Caps. Org Net Assets Cap equals 2 × FTE Headcount × Net Worth Cap. Org Gross Receipts Cap equals 2 × FTE Headcount × Income Cap. For Organizations, net assets and gross receipts are measured under the Organization’s primary financial reporting basis for that year (for example, U.S. GAAP, IFRS, or the local nonprofit standard), applying the same basis consistently year over year.
 
 1.16 Attestation means the annual compliance statement completed on the PBE-L template for Organizations or Individuals and filed as described in Section 6.
 
@@ -65,7 +65,7 @@ This license is for software that advances broad public benefit. It permits use 
 
 4.1 Payroll Allowed. Organizations may use the Software to fund or inform payroll and benefits for bona fide services.
 
-4.2 Equitable Application. If the Software funds or informs pay, the Organization must apply the benefits of the Software equitably among employees. The Organization must disclose executive pay in bands no wider than 25,000 (state the currency and year) in its transparency materials or in linked filings referenced in the Attestation.
+4.2 Equitable Application. If the Software funds or informs pay, the Organization must apply the benefits of the Software equitably among employees. The Organization must disclose executive pay in bands no wider than 25,000 (state the currency and year) in its transparency materials or in linked filings referenced in the Attestation. Executive means any officer or employee whose total compensation is among the five highest for the Transparency Year, plus the principal executive officer, whether or not among the five highest.
 
 5. Consolidation and Anti-Fragmentation
 
@@ -77,9 +77,9 @@ This license is for software that advances broad public benefit. It permits use 
 
 6.1 Single filing channel. File the Attestation each Transparency Year by email to the Attestation Inbox at attest@lndmn.com. Keep a copy of the filed Attestation and any attachments.
 
-6.1.1 Submission and receipt. Attestations must be sent to attest@lndmn.com as PDF or Markdown attachments. An Attestation is deemed received on the earlier of (a) Licensor’s email acknowledgment, or (b) two business days after a message without a bounce is sent, as shown by the Licensee’s SMTP server logs. Licensees must retain evidence of sending and any acknowledgment.
+6.1.1 Submission and receipt. Attestations must be sent to attest@lndmn.com as PDF or Markdown attachments. Attachments should not exceed twenty megabytes in total; if larger, provide a link to a publicly readable copy. An Attestation is deemed received on the earlier of (a) Licensor’s email acknowledgment, or (b) two business days after a message without a bounce is sent, as shown by the Licensee’s SMTP server logs. Licensees must retain evidence of sending and any acknowledgment.
 
-6.2 What to file. The Attestation must include: (a) the Transparency Year; (b) for Organizations, the FTE window, computed FTE Headcount, and the Org Caps calculations; (c) either the required transparency content inline or stable links to existing public filings or pages that contain it; and (d) if using the small-organization safe harbor, the required statement and counts. A Compliance Contact email may be included.
+6.2 What to file. The Attestation must include: (a) the Transparency Year; (b) for Organizations, the FTE window, computed FTE Headcount, and the Org Caps calculations; and (c) either the required transparency content inline or stable links to existing public filings or pages that contain it. A Compliance Contact email may be included.
 
 6.3 Reporting Deadline. File by the earlier of 120 days after fiscal year end or the deadline that applies to the Licensee’s largest mandatory annual public filing in its home jurisdiction.
 
@@ -103,7 +103,7 @@ This license is for software that advances broad public benefit. It permits use 
 
 9. Warranty and Liability
 
-9.1 Disclaimer. The Software is provided “as is” without warranties or conditions of any kind.
+9.1 Disclaimer. The Software is provided "as is" without warranties or conditions of any kind.
 
 9.2 Limitation. To the extent allowed by law, Licensor is not liable for any indirect, special, incidental, consequential, or punitive damages; and Licensor’s total liability is capped at one hundred dollars.
 
@@ -115,9 +115,9 @@ This license is for software that advances broad public benefit. It permits use 
 
 11. Marks and Badge
 
-11.1 Marks. “Public Benefit Equity License” and “PBE-L” are marks of the Licensor. Use them only to refer to the unmodified license.
+11.1 Marks. Public Benefit Equity License and PBE-L are marks of the Licensor. Use them only to refer to the unmodified license.
 
-11.2 License badge. Repositories may display a “License: PBE-L” badge that links to the canonical LICENSE text. Do not display “compliant” badges; compliance is shown by filing a current Attestation to the Attestation Inbox.
+11.2 License badge. Repositories may display a License: PBE-L badge that links to the canonical LICENSE text. Do not display compliant badges; compliance is shown by filing a current Attestation to the Attestation Inbox.
 
 12. Attribution and Distribution
 
@@ -137,7 +137,7 @@ This license is for software that advances broad public benefit. It permits use 
 
 14.3 Entire agreement. This license is the entire agreement on its subject matter.
 
-14.4 Assignment. You may not assign this license without Licensor’s prior written consent; Licensor may assign to a successor to substantially all related assets.
+14.4 Permission to use this license text. You may copy and distribute this license text; you may apply it, unmodified, to your own software and repositories. If you change the terms, do not call the result PBE-L and do not use the PBE-L marks except as permitted in Section 11.
 
 14.5 Survival. Sections 5, 6.4, 6.5, 7, 8, 9, 10.2, 11, 12, and 14 survive termination.
 
