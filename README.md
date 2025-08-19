@@ -2,6 +2,8 @@
 
 This repository publishes the canonical text of EPBL and a small compliance kit for adopters. EPBL keeps overhead low for good-faith nonprofits and co-ops while preventing capture by for-profit and ultra-wealthy actors.
 
+This is the software license  for the 90%.
+
 ## Files
 [LICENSE.txt](./LICENSE.txt): the full legal text
 
