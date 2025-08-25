@@ -25,9 +25,9 @@ This license is for software that advances broad public benefit. It permits use 
 
 1.10 Measurement Date means the last day of the Transparency Year.
 
-1.11 Net Worth Cap means the top ten percent household net worth threshold published for the Licensee’s country of residence, measured as of the Measurement Date. If multiple official sources exist, use in order: (i) the national statistics office; (ii) the most recent U.S. Survey of Consumer Finances, adjusted by purchasing power parity (PPP) to the Licensee’s country; (iii) if neither is available, the OECD wealth distribution dataset.
+1.11 Net Worth Cap means the household net worth threshold at the Half-Wealth Percentile (HWP) for the Licensee’s country of residence, measured as of the Measurement Date. If multiple official sources exist, use in order: (i) the national statistics office; (ii) the most recent U.S. Survey of Consumer Finances, adjusted by purchasing power parity (PPP) to the Licensee’s country; (iii) if neither is available, the OECD wealth distribution dataset. If an exact percentile threshold is not published, compute it by linear interpolation between the nearest available percentiles.
 
-1.12 Income Cap means the lower of (i) the top ten percent household income threshold and (ii) the SEC accredited investor household income threshold (household), each as of the Measurement Date. If the Licensee is outside the U.S., treat (ii) as a fixed U.S. dollar value and convert per Section 1.14.
+1.12 Income Cap means the lower of (i) the household income threshold at the Half-Income Percentile (HIP) and (ii) the SEC accredited investor household income threshold (household), each as of the Measurement Date. If the Licensee is outside the U.S., treat (ii) as a fixed U.S. dollar value and convert per Section 1.14. If an exact percentile threshold is not published, compute it by linear interpolation between the nearest available percentiles.
 
 1.13 FTE Headcount means the average number of full-time-equivalent workers over the 13 weeks (91 days) ending on the Measurement Date. Compute it as: FTE Headcount = total paid hours during that 13-week period ÷ 520. Include employees and contractors performing bona fide services, including paid time off; exclude unpaid volunteers. Round to the nearest whole number using half-up.
 
@@ -54,6 +54,10 @@ This license is for software that advances broad public benefit. It permits use 
 1.24 Governing Law means the law of the State of California, without regard to conflict-of-laws rules.
 
 1.25 Marks means the names “Equitable Public Benefit License” and “EPBL”.
+
+1.26 Half-Wealth Percentile (HWP) means the smallest household percentile 𝑝 such that households at or below 𝑝 hold at least fifty percent of aggregate household net worth in the Licensee’s country for the Transparency Year that includes the Measurement Date.
+
+1.27 Half-Income Percentile (HIP) means the smallest household percentile 𝑝 such that households at or below 𝑝 receive at least fifty percent of aggregate household income in the Licensee’s country for the Transparency Year that includes the Measurement Date.
 
 2. Grant
 
