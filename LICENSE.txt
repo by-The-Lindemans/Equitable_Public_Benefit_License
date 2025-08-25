@@ -1,4 +1,4 @@
-Equitable Public Benefit License (EPBL) v0.2.0-rc4
+Equitable Public Benefit License (EPBL) v0.2.0-rc5
 
 Preamble
 This license is for software that advances broad public benefit. It permits use by qualifying individuals and benevolent organizations that operate within simple, verifiable limits; it blocks capture by for-profit and ultra-wealthy actors. Compliance is kept simple by filing a single annual Attestation by email.
