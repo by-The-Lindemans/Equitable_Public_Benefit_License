@@ -69,13 +69,19 @@ This license is for software that advances broad public benefit. It permits use 
 
 1.31 Canonical EPBL Repository means the public GitHub repository that publishes EPBL and its tagged versions.
 
-1.32 Latest Version means the most recent tagged version of EPBL published in the Canonical EPBL Repository.
+1.32 Latest Version means the most recent tagged stable version of EPBL (semantic version without a pre-release identifier such as alpha, beta, or rc) published in the Canonical EPBL Repository. If the most recent tag is a pre-release, Latest Version means the most recent preceding stable tag.
 
 1.33 Upgrade Window means the period beginning on publication of a new tagged version of EPBL in the Canonical EPBL Repository and ending 60 days later, measured in Pacific Time in California.
 
+1.34 Licensor means the copyright holder(s) that apply this license to the Software.
+
+1.35 Licensee means the individual or Organization exercising rights under this license.
+
+1.36 Caps means, as applicable, the Net Worth Cap for Individuals and the Org Caps for Organizations.
+
 2. Grant
 
-2.1 License Grant. Subject to Section 3 and the other terms of this license, the Licensor grants you a worldwide, royalty-free, non-exclusive license to use, copy, modify, and distribute the Software and Outputs for purposes consistent with this license.
+2.1 License Grant. Subject to Section 3 and the other terms of this license, the Licensor grants you a worldwide, royalty-free, non-exclusive license to use, copy, modify, distribute, and operate the Software as a network service, and to use and distribute Outputs, for purposes consistent with this license.
 
 2.2 No Trademark. This license does not grant rights in names, logos, or trademarks except as allowed in Section 11.
 
@@ -91,7 +97,7 @@ This license is for software that advances broad public benefit. It permits use 
 
 3.4 No Brokerage of Prohibited Use. You must not provide the Software, Outputs, or Artifacts to a Prohibited User; you must not operate the Software as a service for a Prohibited User; and you must not design around these conditions by interposing agents, shells, or contractors.
 
-3.5 Research Sharing. You may publish methods and aggregate statistics. You must not publish Artifacts or parameter sets that would reasonably enable a prohibited user to reproduce the Software’s performance. You must not publish Outputs that, in form or substance, function as Artifacts.
+3.5 Research Sharing. You may publish methods and aggregate statistics. You must not publish Artifacts or parameter sets that would reasonably enable a Prohibited User to reproduce the Software’s performance. You must not publish Outputs that, in form or substance, function as Artifacts.
 
 3.6 Export controls and sanctions. You must comply with applicable export, re-export, and sanctions laws. You must not use or provide the Software, Outputs, or Artifacts to any person or entity (or for any end-use) that is prohibited under U.S. sanctions or export control laws, including persons on OFAC’s Specially Designated Nationals or other blocked lists.
 
@@ -100,7 +106,7 @@ This license is for software that advances broad public benefit. It permits use 
   (b) Affirmative check. An affirmative step (for example, a checkbox, environment variable, or flag) where the user states they are not a Prohibited User and understands the restrictions. For Source Form, this may be a default configuration or installer prompt.
   (c) Defaults and docs. Defaults and documentation that do not enable, encourage, or instruct on using the Software primarily to serve Prohibited Users or to broker their use.
   (d) Service control. If you provide multi-user access, an account-level control to disable access upon credible evidence of non-compliance.
-Nothing in this section requires you to collect or store personal financial data or to implement digital rights management.
+Nothing in this section requires you to collect or store personal financial data or to implement digital rights management. This Section 3.7 imposes no general duty to monitor user conduct beyond taking reasonable action on credible evidence of non-compliance.
 
 3.8 No circumvention tools or instructions. You must not design, publish, or include features, switches, example code, or instructions whose primary purpose is to bypass this license’s restrictions or to defeat Reasonable Safeguards.
 
@@ -114,7 +120,7 @@ Nothing in this section requires you to collect or store personal financial data
 
 5. Consolidation and Anti-Fragmentation
 
-5.1 Consolidation. If an Organization operates a group of related entities under common control, it must consolidate those entities for purposes of FTE Headcount, Caps, and transparency.
+5.1 Consolidation. If an Organization operates a group of related entities under common Control, it must consolidate those entities for purposes of FTE Headcount, Caps, and transparency.
 
 5.2 Anti-avoidance. Arrangements that exist primarily to evade Caps or reporting requirements violate this license.
 
@@ -208,7 +214,7 @@ A Compliance Contact email may be included. An Attestation may be signed electro
 
 14.8 Forum selection and consent. Each party consents to personal jurisdiction in the courts defined in Section 1.17; waives objections based on inconvenience; and agrees that venue there is proper.
 
-14.9 Service. Each party consents to service of process by email and courier. For Licensee, service may be sent to the addresses provided in the Attestation (and, for Organizations, to the registered agent). For Licensor, service may be sent to the Attestation Inbox or any replacement published under Section 6.9. A courier or certified-mail copy must be sent the same day.
+14.9 Service. Each party consents to service of process by email and courier. For Licensee, service may be sent to the addresses provided in the Attestation (and, for Organizations, to the registered agent). For Licensor, service may be sent to the Attestation Inbox or any replacement published under Section 6.9. A courier or certified-mail copy must be sent the same day. These methods are in addition to any other lawful method of service.
 
 14.10 Construction. "Including" means "including without limitation." Headings are for convenience only. Ambiguities are not construed against the drafter.
 
@@ -217,7 +223,6 @@ A Compliance Contact email may be included. An Attestation may be signed electro
 14.12 No third-party beneficiaries. This license creates no third-party beneficiary rights.
 
 Annex A — Jurisdictional Defaults for this Version
-
 Annex A forms part of this license.
 
 Effective date: August 25, 2025.
