@@ -11,7 +11,7 @@ Measurement Date (last day of the Transparency Year): YYYY-MM-DD
 - My Household net worth is at or below the **Net Worth Cap** defined in the license.  
   Cap method (check one):
   - ☐ Use Annex A U.S. Default Net Worth Cap for this EPBL version  
-    U.S. Default Net Worth Cap (from Annex A): $__________ USD
+    U.S. Default Net Worth Cap (from Annex A): $3,450,000 USD
   - ☐ Compute per Section 1.11(b) (non-U.S.)  
     Net Worth Cap figure used: [amount + currency]  
     Source and publication date: [cite]
