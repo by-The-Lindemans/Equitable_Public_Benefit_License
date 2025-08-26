@@ -1,4 +1,4 @@
-Equitable Public Benefit License (EPBL) v0.3.0-rc1
+Equitable Public Benefit License (EPBL) v0.3.0-rc2
 
 Preamble
 This license is for software that advances broad public benefit. It permits use by qualifying individuals and benevolent organizations that operate within simple, verifiable limits; it blocks capture by for-profit and ultra-wealthy actors. Compliance is kept simple by filing a single annual Attestation by email.
@@ -25,7 +25,7 @@ This license is for software that advances broad public benefit. It permits use 
 
 1.10 Measurement Date means the last day of the Transparency Year.
 
-1.11 Net Worth Cap means the household net worth threshold at the Half-Wealth Percentile (HWP) for the Licensee’s country of residence, measured as of the Measurement Date. If multiple official sources exist, use in order: (i) the national statistics office; (ii) the most recent U.S. Survey of Consumer Finances, adjusted by purchasing power parity (PPP) to the Licensee’s country; (iii) if neither is available, the OECD wealth distribution dataset. If an exact percentile threshold is not published, compute it by linear interpolation between the nearest available percentiles.
+1.11 Net Worth Cap means the household net worth threshold at the Half-Wealth Percentile (HWP) for the Licensee’s country of residence, for Organizations, use the country of incorporation or, if different, the country of primary operations declared in the Attestation, measured as of the Measurement Date. If multiple official sources exist, use in order: (i) the national statistics office; (ii) the most recent U.S. Survey of Consumer Finances, adjusted by purchasing power parity (PPP) to the Licensee’s country; (iii) if neither is available, the OECD wealth distribution dataset. If an exact percentile threshold is not published, compute it by linear interpolation between the nearest available percentiles.
 
 1.12 FTE Headcount means the average number of full-time-equivalent workers over the 13 weeks (91 days) ending on the Measurement Date. Compute it as: FTE Headcount = total paid hours during that 13-week period ÷ 520. Include employees and contractors performing bona fide services, including paid time off; exclude unpaid volunteers. Round to the nearest whole number using half-up.
 
