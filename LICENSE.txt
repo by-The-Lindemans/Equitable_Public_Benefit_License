@@ -100,7 +100,7 @@ This license is for software that advances broad public benefit. It permits use 
 6.2 What to file. The Attestation must include:
   (a) the Transparency Year and the Measurement Date;
   (b) the primary jurisdiction and whether Annex A applies. If Annex A applies, cite “U.S. Default Net Worth Cap (this version)”; no external source is required. If Annex A does not apply, state the Net Worth Cap figure used, its source, and publication date; and
-  (c) for Organizations, the FTE window and computed FTE Headcount (Section 1.13), the Org Caps calculations using the Net Worth Cap, and either the required transparency content inline or stable links to existing public filings or pages that contain it; for Individuals, a statement that Household net worth is at or below the Net Worth Cap.
+  (c) for Organizations, the FTE window and computed FTE Headcount (Section 1.12), the Org Caps calculations using the Net Worth Cap, and either the required transparency content inline or stable links to existing public filings or pages that contain it; for Individuals, a statement that Household net worth is at or below the Net Worth Cap.
 A Compliance Contact email may be included. An Attestation may be signed electronically and is valid if signed by an authorized officer or by the Individual.
 
 6.3 Reporting Deadline. File by the earlier of 120 days after fiscal year end or the deadline that applies to the Licensee’s largest mandatory annual public filing in its home jurisdiction. If the Reporting Deadline falls on a day that is not a Business Day, the deadline is the next Business Day. Deadlines are measured in Pacific Time in California.
@@ -173,9 +173,9 @@ A Compliance Contact email may be included. An Attestation may be signed electro
 
 14.6 Attorneys’ fees. In any action to enforce this license, the prevailing party is entitled to reasonable attorneys’ fees and costs in addition to any fee awards available under applicable law.
 
-14.7 Equitable relief and non-exclusive forum. The parties acknowledge that breaches of Sections 3, 4, 5, or 6 may cause irreparable harm. Licensor may seek temporary, preliminary, or permanent injunctive relief and specific performance in any court of competent jurisdiction, without posting bond, while the merits otherwise proceed in the Venue defined in Section 1.18.
+14.7 Equitable relief and non-exclusive forum. The parties acknowledge that breaches of Sections 3, 4, 5, or 6 may cause irreparable harm. Licensor may seek temporary, preliminary, or permanent injunctive relief and specific performance in any court of competent jurisdiction, without posting bond, while the merits otherwise proceed in the Venue defined in Section 1.17.
 
-14.8 Forum selection and consent. Each party consents to personal jurisdiction in the courts defined in Section 1.18; waives objections based on inconvenience; and agrees that venue there is proper.
+14.8 Forum selection and consent. Each party consents to personal jurisdiction in the courts defined in Section 1.17; waives objections based on inconvenience; and agrees that venue there is proper.
 
 14.9 Service. Each party consents to service of process by email and courier. For Licensee, service may be sent to the addresses provided in the Attestation (and, for Organizations, to the registered agent). For Licensor, service may be sent to the Attestation Inbox or any replacement published under Section 6.9. A courier or certified-mail copy must be sent the same day.
 
@@ -197,4 +197,4 @@ Notes:
   • U.S. Organizations and Individuals use this fixed figure; no other lookup is required.
   • The Licensor may update the default only by publishing a new tagged version of EPBL. Do not substitute other figures within this version.
 
-Governing Law and Venue: as defined in Sections 1.24 and 1.18.
+Governing Law and Venue: as defined in Sections 1.23 and 1.17.
