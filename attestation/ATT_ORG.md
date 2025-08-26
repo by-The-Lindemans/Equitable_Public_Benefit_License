@@ -28,7 +28,7 @@ FTE Headcount: total paid hours in that 13-week window ÷ 520; round to a whole 
 
 Cap method (check one):
 - ☐ **Use Annex A U.S. Default Net Worth Cap** for this EPBL version  
-  U.S. Default Net Worth Cap (from Annex A): **$__________ USD**  
+  U.S. Default Net Worth Cap (from Annex A): **$3,450,000 USD**  
   Measurement Date: **YYYY-MM-DD**
 - ☐ **Compute per Section 1.11(b)** (non-U.S.)  
   Net Worth Cap figure used: **[amount + currency]**  
