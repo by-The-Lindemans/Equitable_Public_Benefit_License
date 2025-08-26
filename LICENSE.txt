@@ -100,7 +100,7 @@ This license is for software that advances broad public benefit. It permits use 
 6.2 What to file. The Attestation must include:
   (a) the Transparency Year and the Measurement Date;
   (b) the primary jurisdiction and whether Annex A applies. If Annex A applies, cite “U.S. Default Net Worth Cap (this version)”; no external source is required. If Annex A does not apply, state the Net Worth Cap figure used, its source, and publication date; and
-  (c) for Organizations, either the required transparency content inline or stable links to existing public filings or pages that contain it.
+  (c) for Organizations, the FTE window and computed FTE Headcount (Section 1.13), the Org Caps calculations using the Net Worth Cap, and either the required transparency content inline or stable links to existing public filings or pages that contain it; for Individuals, a statement that Household net worth is at or below the Net Worth Cap.
 A Compliance Contact email may be included. An Attestation may be signed electronically and is valid if signed by an authorized officer or by the Individual.
 
 6.3 Reporting Deadline. File by the earlier of 120 days after fiscal year end or the deadline that applies to the Licensee’s largest mandatory annual public filing in its home jurisdiction. If the Reporting Deadline falls on a day that is not a Business Day, the deadline is the next Business Day. Deadlines are measured in Pacific Time in California.
