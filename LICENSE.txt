@@ -1,4 +1,4 @@
-Equitable Public Benefit License (EPBL) v0.3.0-rc3
+Equitable Public Benefit License (EPBL) v0.3.0-rc4
 
 Preamble
 This license is for software that advances broad public benefit. It permits use by qualifying individuals and benevolent organizations that operate within simple, verifiable limits; it blocks capture by for-profit and ultra-wealthy actors. Compliance is kept simple by filing a single annual Attestation by email.
@@ -67,13 +67,19 @@ This license is for software that advances broad public benefit. It permits use 
 
 1.30 Reasonable Safeguards means measures proportionate to the size and nature of the project that make it not easy for a Prohibited User to use the Software deliberately in ordinary operation, without requiring the collection of sensitive personal data.
 
+1.31 Canonical EPBL Repository means the public GitHub repository that publishes EPBL and its tagged versions.
+
+1.32 Latest Version means the most recent tagged version of EPBL published in the Canonical EPBL Repository.
+
+1.33 Upgrade Window means the period beginning on publication of a new tagged version of EPBL in the Canonical EPBL Repository and ending 60 days later, measured in Pacific Time in California.
+
 2. Grant
 
 2.1 License Grant. Subject to Section 3 and the other terms of this license, the Licensor grants you a worldwide, royalty-free, non-exclusive license to use, copy, modify, and distribute the Software and Outputs for purposes consistent with this license.
 
 2.2 No Trademark. This license does not grant rights in names, logos, or trademarks except as allowed in Section 11.
 
-2.3 Acceptance. By exercising any rights granted by this license (including use, copying, modification, or distribution), you accept these terms.
+2.3 Acceptance. By exercising any rights granted by this license (including use, copying, modification, distribution, or operation as a service) you accept the then-current version of EPBL published in the Canonical EPBL Repository, subject to Section 13.1 (Upgrade Window).
 
 3. Eligibility and Use Limits
 
@@ -168,17 +174,21 @@ A Compliance Contact email may be included. An Attestation may be signed electro
 
 11.1 Marks. The Marks are marks of the Licensor. Use them only to refer to the unmodified license.
 
-11.2 License badge. Repositories may display a License: EPBL badge that links to the canonical LICENSE text.
+11.2 License badge. Repositories may display a "License: EPBL" badge that links to the canonical LICENSE in the Canonical EPBL Repository, so the link always resolves to the Latest Version.
 
 12. Attribution and Distribution
 
-12.1 Preserve notices and templates. Keep copyright notices and this license text in copies of the Software and significant portions. When Distributing in Source Form or Executable Form, do not remove or disable the Reasonable Safeguards required by Section 3.7; defaults and notices that implement those safeguards must be retained or replaced with functionally equivalent measures.
+12.1 Preserve notices and templates. Keep copyright notices and this license text in copies of the Software and significant portions. When Distributing in Source Form or Executable Form, do not remove or disable the Reasonable Safeguards required by Section 3.7; defaults and notices that implement those safeguards must be retained or replaced with functionally equivalent measures; and include the Latest Version of this license text per Section 13.2.
 
-13. Versioning and Changes
+13. Versioning and Updates
 
-13.1 Version. This license is versioned. If Licensor publishes a new version, you may continue under this version or adopt the new one.
+13.1 Mandatory updates after Upgrade Window. Licensor may publish new versions of EPBL as tagged releases in the Canonical EPBL Repository. Beginning on the first day after the Upgrade Window for a new tagged version closes, you may exercise rights in the Software only under the Latest Version. Acts that occurred before the end of the Upgrade Window remain licensed under the prior version.
 
-13.2 No side agreements. Terms outside this license do not change the permissions and conditions in this license.
+13.2 Distribution duty to update. When you Distribute the Software in Source Form or Executable Form after the end of the Upgrade Window for a new tagged version, you must include the Latest Version of this license text and update license notices to reference that version or to link to the canonical LICENSE in the Canonical EPBL Repository.
+
+13.3 No retroactive revocation. This Section 13 does not revoke permissions for acts completed before the end of the applicable Upgrade Window. Continued or renewed exercise of rights after that date is conditioned on Section 13.1.
+
+13.4 Notice of publication. Publication of a new tagged version in the Canonical EPBL Repository is sufficient notice of the new version for purposes of this Section 13.
 
 14. Boilerplate
 
