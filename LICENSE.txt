@@ -189,8 +189,9 @@ Annex A — Jurisdictional Defaults for this Version
 
 Annex A forms part of this license.
 
-United States — U.S. Default Net Worth Cap:
-  $__________ USD for Measurement Dates from __________ to __________.
+Effective date: August 25, 2025.
+The U.S. Default Net Worth Cap equals $3,450,000 (nominal U.S. dollars).
+Derivation: Half-Wealth Percentile p = 94.25 computed from the Federal Reserve’s Distributional Financial Accounts Q1 2025 wealth-share series (bottom 50; 50–90; 90–99; top 1). Dollar threshold obtained by linear interpolation between SCF 2022 net-worth cutoffs at the 90th and 95th percentiles.
 
 Notes:
   • U.S. Organizations and Individuals use this fixed figure; no other lookup is required.
