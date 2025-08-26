@@ -57,6 +57,16 @@ This license is for software that advances broad public benefit. It permits use 
 
 1.25 Half-Wealth Percentile (HWP) means the smallest household percentile 𝑝 such that households at or below 𝑝 hold at least fifty percent of aggregate household net worth in the Licensee’s country for the Transparency Year that includes the Measurement Date.
 
+1.26 Distribute means to make the Software available to third parties in Source Form or Executable Form, including by publishing to a code host or package manager or shipping prebuilt binaries or container images.
+
+1.27 Source Form means the preferred form for making modifications to the Software, including source code, model definitions, configuration files, and build or deployment scripts.
+
+1.28 Executable Form means a compiled, packaged, containerized, or otherwise prepared form intended to be run by end users or deployed to production.
+
+1.29 Service Operator means a Licensee that exposes the Software’s functionality to third parties over a network.
+
+1.30 Reasonable Safeguards means measures proportionate to the size and nature of the project that make it not easy for a Prohibited User to use the Software deliberately in ordinary operation, without requiring the collection of sensitive personal data.
+
 2. Grant
 
 2.1 License Grant. Subject to Section 3 and the other terms of this license, the Licensor grants you a worldwide, royalty-free, non-exclusive license to use, copy, modify, and distribute the Software and Outputs for purposes consistent with this license.
@@ -78,6 +88,17 @@ This license is for software that advances broad public benefit. It permits use 
 3.5 Research Sharing. You may publish methods and aggregate statistics. You must not publish Artifacts or parameter sets that would reasonably enable a prohibited user to reproduce the Software’s performance. You must not publish Outputs that, in form or substance, function as Artifacts.
 
 3.6 Export controls and sanctions. You must comply with applicable export, re-export, and sanctions laws. You must not use or provide the Software, Outputs, or Artifacts to any person or entity (or for any end-use) that is prohibited under U.S. sanctions or export control laws, including persons on OFAC’s Specially Designated Nationals or other blocked lists.
+
+3.7 Reasonable Safeguards for Distributors and Service Operators. If you Distribute the Software in Source Form or Executable Form, or operate it as a network service for third parties, you must implement Reasonable Safeguards. Measures satisfy this duty if implemented in good faith and proportionate to the project:
+  (a) Eligibility notice. A conspicuous notice at first run, sign-up, or in the README and CLI help that states the Prohibited Users in Section 3.3 and links to this license.
+  (b) Affirmative check. An affirmative step (for example, a checkbox, environment variable, or flag) where the user states they are not a Prohibited User and understands the restrictions. For Source Form, this may be a default configuration or installer prompt.
+  (c) Defaults and docs. Defaults and documentation that do not enable, encourage, or instruct on using the Software primarily to serve Prohibited Users or to broker their use.
+  (d) Service control. If you provide multi-user access, an account-level control to disable access upon credible evidence of non-compliance.
+Nothing in this section requires you to collect or store personal financial data or to implement digital rights management.
+
+3.8 No circumvention tools or instructions. You must not design, publish, or include features, switches, example code, or instructions whose primary purpose is to bypass this license’s restrictions or to defeat Reasonable Safeguards.
+
+3.9 Pass-through of safeguards. When you Distribute modified versions or forks in Source Form or Executable Form, you must retain the notices and configuration that implement Reasonable Safeguards or provide functionally equivalent safeguards.
 
 4. Employment and Pay
 
@@ -119,7 +140,7 @@ A Compliance Contact email may be included. An Attestation may be signed electro
 
 7. Verification
 
-7.1 Good-faith requests. Licensor, or a third party designated by Licensor, may request verification no more than once per Transparency Year absent credible evidence of non-compliance. Requests must identify the provision at issue and the Transparency Year and must be sent privately. Licensee must respond within 30 days with a brief statement and links or redacted documents sufficient to confirm compliance.
+7.1 Good-faith requests. Licensor, or a third party designated by Licensor, may request verification no more than once per Transparency Year absent credible evidence of non-compliance. Requests must identify the provision at issue and the Transparency Year and must be sent privately. Licensee must respond within 30 days with a brief statement and links or redacted documents sufficient to confirm compliance. Licensee’s response may be limited to a brief description of the Reasonable Safeguards implemented under Section 3.7 and how they are applied, without disclosing sensitive personal data.
 
 7.2 Use and confidentiality of verification materials. Materials you provide under Section 7.1 may be used solely to verify compliance under this license. Licensor and any designee must take reasonable steps to protect non-public information in those materials and may disclose them only to courts, regulators, or advisors as reasonably necessary for enforcement.
 
@@ -151,7 +172,7 @@ A Compliance Contact email may be included. An Attestation may be signed electro
 
 12. Attribution and Distribution
 
-12.1 Preserve notices and templates. Keep copyright notices and this license text in copies of the Software and significant portions. When distributing with source, include the attestation/ templates directory unmodified or provide a link to the canonical templates.
+12.1 Preserve notices and templates. Keep copyright notices and this license text in copies of the Software and significant portions. When Distributing in Source Form or Executable Form, do not remove or disable the Reasonable Safeguards required by Section 3.7; defaults and notices that implement those safeguards must be retained or replaced with functionally equivalent measures.
 
 13. Versioning and Changes
 
