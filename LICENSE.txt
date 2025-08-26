@@ -1,4 +1,4 @@
-Equitable Public Benefit License (EPBL) v0.3.0-rc2
+Equitable Public Benefit License (EPBL) v0.3.0-rc3
 
 Preamble
 This license is for software that advances broad public benefit. It permits use by qualifying individuals and benevolent organizations that operate within simple, verifiable limits; it blocks capture by for-profit and ultra-wealthy actors. Compliance is kept simple by filing a single annual Attestation by email.
@@ -27,7 +27,8 @@ This license is for software that advances broad public benefit. It permits use 
 
 1.11 Net Worth Cap means:
   (a) if the Licensee’s primary jurisdiction (for Individuals, residence; for Organizations, country of incorporation or primary operations stated in the Attestation) is the United States, the U.S. Default Net Worth Cap published for this license version in Annex A; or
-  (b) otherwise, the household net worth threshold at the Half-Wealth Percentile (HWP) for the Licensee’s country of residence, for Organizations, use the country of incorporation or, if different, the country of primary operations declared in the Attestation, measured as of the Measurement Date. If multiple official sources exist, use in order: (i) the national statistics office; (ii) the most recent U.S. Survey of Consumer Finances, adjusted by purchasing power parity (PPP) to the Licensee’s country; (iii) if neither is available, the OECD wealth distribution dataset. If an exact percentile threshold is not published, compute it by linear interpolation between the nearest available percentiles.
+  (b) otherwise, for Individuals, the household net worth threshold at the Half-Wealth Percentile (HWP) for the Licensee’s country of residence; and for Organizations, the threshold for the country of incorporation or, if different, the country of primary operations stated in the Attestation; in each case measured as of the Measurement Date. If multiple official sources exist, use in order: (i) the national statistics office; (ii) the most recent U.S. Survey of Consumer Finances, adjusted by purchasing power parity (PPP) to the Licensee’s country; (iii) if neither is available, the OECD wealth distribution dataset. If an exact percentile threshold is not published, compute it by linear interpolation between the nearest available percentiles.
+
 
 1.12 FTE Headcount means the average number of full-time-equivalent workers over the 13 weeks (91 days) ending on the Measurement Date. Compute it as: FTE Headcount = total paid hours during that 13-week period ÷ 520. Include employees and contractors performing bona fide services, including paid time off; exclude unpaid volunteers. Round to the nearest whole number using half-up.
 
@@ -97,7 +98,11 @@ This license is for software that advances broad public benefit. It permits use 
 
 6.1.1 Submission and receipt. Attestations must be sent to attest@lndmn.com as PDF or Markdown attachments. Attachments should not exceed twenty megabytes in total; if larger, provide a link to a publicly readable copy. An Attestation is deemed received on the earlier of (a) Licensor’s email acknowledgment, or (b) two Business Days measured in Pacific Time in California after a message without a bounce is sent, as shown by the Licensee’s SMTP server logs. Licensees must retain evidence of sending and any acknowledgment.
 
-6.2 What to file. The Attestation must include: (a) the Transparency Year; (b) For Organizations, state your primary jurisdiction and whether Annex A applies. If Annex A applies, cite “U.S. Default Net Worth Cap (this version)” and the Measurement Date; no external source is required. Otherwise, state the Net Worth Cap figure used, its source, and publication date; and (c) either the required transparency content inline or stable links to existing public filings or pages that contain it. A Compliance Contact email may be included. An Attestation may be signed electronically and is valid if signed by an authorized officer or the Individual.
+6.2 What to file. The Attestation must include:
+  (a) the Transparency Year and the Measurement Date;
+  (b) the primary jurisdiction and whether Annex A applies. If Annex A applies, cite “U.S. Default Net Worth Cap (this version)”; no external source is required. If Annex A does not apply, state the Net Worth Cap figure used, its source, and publication date; and
+  (c) for Organizations, either the required transparency content inline or stable links to existing public filings or pages that contain it.
+A Compliance Contact email may be included. An Attestation may be signed electronically and is valid if signed by an authorized officer or by the Individual.
 
 6.3 Reporting Deadline. File by the earlier of 120 days after fiscal year end or the deadline that applies to the Licensee’s largest mandatory annual public filing in its home jurisdiction. If the Reporting Deadline falls on a day that is not a Business Day, the deadline is the next Business Day. Deadlines are measured in Pacific Time in California.
 
@@ -182,6 +187,8 @@ This license is for software that advances broad public benefit. It permits use 
 14.12 No third-party beneficiaries. This license creates no third-party beneficiary rights.
 
 Annex A — Jurisdictional Defaults for this Version
+
+Annex A forms part of this license.
 
 United States — U.S. Default Net Worth Cap:
   $__________ USD for Measurement Dates from __________ to __________.
